@@ -14,6 +14,10 @@
     @apply mx-auto;
   }
   .movie-list .swiper-slide {
-    width: 300px;
+    width: 320px;
+    height: auto;
+  }
+  .banner .swiper {
+    height: 100%;
   }
 }
