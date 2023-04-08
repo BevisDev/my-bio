@@ -1,0 +1,1 @@
+export const NOW_PLAYING_LIST_PATH = "apigetlist";
