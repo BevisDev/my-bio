@@ -4,19 +4,46 @@
 
 @layer base {
   body {
-    @apply bg-slate-900 font-body px-5;
+    @apply bg-slate-500 font-body;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
 
 @layer components {
-  .page-container {
+  .dash-board-container-800 {
+    width: 800px;
+    @apply mx-auto;
+  }
+
+  .container-1280 {
     max-width: 1280px;
     @apply mx-auto;
   }
+
+  .marquee-container {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .marquee-content {
+    display: inline-block;
+    animation: marquee 12s linear infinite;
+  }
+
   .movie-list .swiper-slide {
     width: 320px;
     height: auto;
   }
+
   .banner .swiper {
     height: 100%;
   }

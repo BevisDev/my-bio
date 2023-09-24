@@ -2,9 +2,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import MovieCard from "./MovieCard";
 import { API_KEY, fetcher } from "../../../config/config";
 import useSWR from "swr";
-import { MOVIE_LIST_PATH } from "../../../constant/ConstPath";
+import { MOVIE_LIST_PATH } from "../../../constant/PathConst";
 import { useEffect, useState } from "react";
-import { LANGUAGE_US_AND_PAGING } from "../../../constant/ConstString";
+import { LANGUAGE_US_AND_PAGING } from "../../../constant/Const";
 
 const MovieList = ({ type }) => {
   const [movies, setMovies] = useState([]);

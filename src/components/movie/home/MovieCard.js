@@ -1,5 +1,5 @@
-import { GET_IMAGE_MOVIE_PATH } from "../../../constant/ConstPath";
-import { W500 } from "../../../constant/ConstString";
+import { GET_IMAGE_MOVIE_PATH } from "../../../constant/PathConst";
+import { W500 } from "../../../constant/Const";
 
 const MovieCard = ({ item }) => {
   const { title, vote_average, release_date, poster_path } = item;

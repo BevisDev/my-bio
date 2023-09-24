@@ -2,9 +2,9 @@ import useSWR from "swr";
 import {
   GET_IMAGE_MOVIE_PATH,
   MOVIE_LIST_PATH,
-} from "../../../constant/ConstPath";
+} from "../../../constant/PathConst";
 import { API_KEY, fetcher } from "../../../config/config";
-import { LANGUAGE_US_AND_PAGING, ORIGINAL } from "../../../constant/ConstString";
+import { LANGUAGE_US_AND_PAGING, ORIGINAL } from "../../../constant/Const";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Banner = ({ type }) => {
