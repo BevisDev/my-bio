@@ -1,31 +1,40 @@
+import STAR from "../images/start-94.png";
+
 const Experience = () => {
   return (
-    <section id="experience" className="h-[100vh] pl-[19rem] bg-white">
-      <h1 className="mb-2 text-[3rem]">EXPERIENCE</h1>
-      <div className="flex items-center gap-2 text-center text-xs">
-        <i>
-          <svg
-            class="w-6 h-6 text-gray-800 dark:text-white"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 20 16"
-          >
-            <path d="M18 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2ZM6.5 3a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3.014 13.021l.157-.625A3.427 3.427 0 0 1 6.5 9.571a3.426 3.426 0 0 1 3.322 2.805l.159.622-6.967.023ZM16 12h-3a1 1 0 0 1 0-2h3a1 1 0 0 1 0 2Zm0-3h-3a1 1 0 1 1 0-2h3a1 1 0 1 1 0 2Zm0-3h-3a1 1 0 1 1 0-2h3a1 1 0 1 1 0 2Z" />
-          </svg>
-        </i>
-        <span>Java Developer</span>
+    <section
+      id="experience"
+      className="h-[99vh] px-[21rem] pt-[7rem] text-[16px] font-serif bg-white"
+    >
+      <h1 className="mb-1 text-[3rem]">Experience</h1>
+      <div className="mb-2 flex justify-between">
+        <div className="project_1 flex items-center gap-2">
+          <div className="3_start flex items-center">
+            <img className="w-[1rem] h-[1rem]" src={STAR} alt="STAR" />
+            <img className="w-[1rem] h-[1rem]" src={STAR} alt="STAR" />
+            <img className="w-[1rem] h-[1rem]" src={STAR} alt="STAR" />
+          </div>
+          <h3 className="text-[20px] text-[#40ced9]">
+            <a href="https://www.capitastar.com/sg/en.html" target="blank">
+              CapitaStar
+            </a>
+          </h3>
+        </div>
+        <div className="joined">August 2022 - January 2024</div>
       </div>
-      <div>
-        <a href="mailto:dev.binhtt@gmail.com">dev.binhtt@gmail.com</a>
+      <div className="description mb-2">
+        <span className="border-[1px] bg-yellow-400 p-[3px] text-[17px]">
+          Description:
+        </span>
+        <p>
+          This is a loyal application. Client has been built a Product which
+          applies to all department of company. This product made by my team 3rd
+          party company. Now our company is taking responsibility maintenance
+          for this product. Besides, analyze data is used in application for
+          transfering these data into web report for client. The team has to
+          customize product for each of department if necessary
+        </p>
       </div>
-      <p>Welcome to visit my CV online!</p>
-      <p>Back-End: i am experenced in Java, JavaScript, SQL Server...etc</p>
-      <p>
-        Front-End: i am experenced in JavaScript on ReactJs, Material UI,
-        Bootstrap...etc
-      </p>
-      <p>Moreover, I'm a cat lover guy (｡◕‿‿◕｡)</p>
     </section>
   );
 };

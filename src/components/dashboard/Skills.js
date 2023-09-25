@@ -6,10 +6,10 @@ import GitHubGIF from "../images/githubGIF.gif";
 import Phone48 from "../images/phone-48.png";
 import JavaGIF from "../images/javaGIF.gif";
 
-const About = () => {
+const Skills = () => {
   return (
     <section
-      id="about"
+      id="experience"
       className="h-[99vh] px-[21rem] pt-[7rem] text-[16px] font-serif bg-white"
     >
       <h1 className="mb-1 text-[3rem]">TRƯƠNG THANH BÌNH</h1>
@@ -67,7 +67,7 @@ const About = () => {
         </li>
         <li className="mb-2">
           Front-End: experience in JavaScript on ReactJs, React Admin, Material
-          UI, Bootstrap, Tailwind...etc
+          UI, Bootstrap...etc
         </li>
         <li className="mb-2">Moreover, I'm a cat lover guy (｡◕‿‿◕｡)</li>
       </ul>
@@ -94,4 +94,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Skills;

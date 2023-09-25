@@ -1,5 +1,4 @@
 const NavigationBar = () => {
-  
   return (
     <nav
       className="navbar h-[100vh] w-[250px] bg-primary fixed 
@@ -25,10 +24,10 @@ const NavigationBar = () => {
             <a href="#experience">EXPERIENCE</a>
           </li>
           <li>
-            <a href="#about">EDUCATION</a>
+            <a href="#education">EDUCATION</a>
           </li>
           <li>
-            <a href="#about">SKILLS</a>
+            <a href="#skills">SKILLS</a>
           </li>
           <li>
             <a href="#about">PROJECT</a>
@@ -37,7 +36,7 @@ const NavigationBar = () => {
             <a href="#about">INTERESTS</a>
           </li>
           <li>
-            <a href="#about">THE END</a>
+            <a href="#the-end">THE END</a>
           </li>
         </ul>
       </div>
