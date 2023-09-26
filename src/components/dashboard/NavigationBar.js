@@ -30,10 +30,7 @@ const NavigationBar = () => {
             <a href="#skills">SKILLS</a>
           </li>
           <li>
-            <a href="#about">PROJECT</a>
-          </li>
-          <li>
-            <a href="#about">INTERESTS</a>
+            <a href="#certificates">CERTIFICATES</a>
           </li>
           <li>
             <a href="#the-end">THE END</a>
