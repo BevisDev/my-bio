@@ -1,4 +1,4 @@
-import SHARING from "../images/sharing-94.png";
+import SHARING from "../images/icon/sharing-94.png";
 
 const Education = () => {
   return (

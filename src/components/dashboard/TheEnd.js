@@ -1,9 +1,9 @@
-import CatCodes from "../images/bongoCatCodes.gif";
+import CatCodes from "../images/icon/bongoCatCodes.gif";
 
 const TheEnd = () => {
   return (
     <section
-      id="the-end"
+      id="theEnd"
       className="h-[99vh] px-[21rem] pt-[7rem] text-[16px] font-serif"
     >
       <h1 className="mb-2 text-[3rem]">THE END</h1>

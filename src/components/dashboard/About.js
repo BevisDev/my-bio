@@ -1,18 +1,18 @@
-import Instagram from "../images/instagram.png";
-import Facebook from "../images/facebook.png";
-import Gmail from "../images/gmail.png";
-import Gmail48 from "../images/gmail-48.png";
-import GitHubGIF from "../images/githubGIF.gif";
-import Phone48 from "../images/phone-48.png";
-import JavaGIF from "../images/javaGIF.gif";
+import Instagram from "../images/icon/instagram.png";
+import Facebook from "../images/icon/facebook.png";
+import Gmail from "../images/icon/gmail.png";
+import Gmail48 from "../images/icon/gmail-48.png";
+import GitHubGIF from "../images/icon/githubGIF.gif";
+import Phone48 from "../images/icon/phone-48.png";
+import JavaGIF from "../images/icon/javaGIF.gif";
 
 const About = () => {
   return (
     <section
       id="about"
-      className="h-[99vh] px-[21rem] pt-[7rem] text-[16px] font-serif bg-white"
+      className="h-full pl-[21rem] pr-[5rem] pt-[3rem] text-[1rem] font-serif bg-white"
     >
-      <h1 className="mb-1 text-[3rem]">TRƯƠNG THANH BÌNH</h1>
+      <h1 className="mb-1 text-[2rem]">TRƯƠNG THANH BÌNH</h1>
       <div className="mb-2 flex items-center space-x-2 text-gray-800 hover:text-orange-600">
         <img className="h-[40px] w-[40px]" src={JavaGIF} alt="JAVA" />
         <span className="pt-[10px] text-[18px]">Java Developer</span>
@@ -33,7 +33,7 @@ const About = () => {
           <span>0901850057</span>
         </a>
       </div>
-      <div class="marquee-container my-3 text-[2rem]">
+      <div class="marquee-container my-1 text-[28px]">
         <span class="marquee-content">Welcome to visit my CV online!</span>
       </div>
       <p className="mb-2">
@@ -43,40 +43,38 @@ const About = () => {
         days of practice. I believe that the real hands-on experience, the fast
         learning capability and my adaptability can lead to success.
       </p>
-      <hr className="mb-3" />
-      <span className="border-[1px] bg-yellow-400 p-[3px] text-[17px]">
+      <hr className="mb-2" />
+      <span className="border-[1px] bg-yellow-400 p-[3px] text-[1rem]">
         Summary:
       </span>
       <ul className="list-disc mt-2">
-        <li className="mb-2">2+ years of experience in Developer</li>
-        <li className="mb-2">
+        <li className="mb-1">2+ years of experience in Developer</li>
+        <li className="mb-1">
           English Intermediate level, can communicate fluently
         </li>
-        <li className="mb-2">Strong experience in Web Application</li>
-        <li className="mb-2">
+        <li className="mb-1">Strong experience in Web Application</li>
+        <li className="mb-1">
           Strong experience in Sofware Development Life Cycle and Agile, Scrum.
         </li>
-        <li className="mb-2">
+        <li className="mb-1">
           Experience in team management, training new joiner
         </li>
-        <li className="mb-2">
+        <li className="mb-1">
           Experience in fields: Purchase with VISA, MASTERCARD, AMEX, DBS.
         </li>
-        <li className="mb-2">
+        <li className="mb-1">
           Back-End: experience in Java, JavaScript, SQL Server...etc
         </li>
-        <li className="mb-2">
+        <li className="mb-1">
           Front-End: experience in JavaScript on ReactJs, React Admin, Material
           UI, Bootstrap, Tailwind...etc
         </li>
-        <li className="mb-2">Moreover, I'm a cat lover guy (｡◕‿‿◕｡)</li>
+        <li className="mb-1">Moreover, I'm a cat lover guy (｡◕‿‿◕｡)</li>
       </ul>
-      <br />
-      <h2 className="text-[18px]" align="center">
+      <h2 className="text-[18px] mb-2" align="center">
         👽 Where to find me 👽
       </h2>
-      <br />
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mb-3">
         <a href="mailto:dev.binhtt@gmail.com" target="top">
           <img src={Gmail} alt="GMAIL" />
         </a>
