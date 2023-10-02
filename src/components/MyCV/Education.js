@@ -1,12 +1,9 @@
-import SHARING from "../images/icon/sharing-94.png";
+import SHARING from "../../assets/icon/sharing-94.png";
 
 const Education = () => {
   return (
-    <section
-      id="education"
-      className="h-[99vh] pl-[21rem] pt-[7rem] text-[16px] font-serif bg-white"
-    >
-      <h1 className="mb-1 text-[3rem]">EDUCATION</h1>
+    <section id="education" className="cv-container">
+      <h1 className="cv-title mb-1">EDUCATION</h1>
       <div className="flex justify-between gap-18">
         <div className="resume-school flex-1">
           <h3 className="mb-2 text-[20px] text-amber-600">

@@ -1,18 +1,15 @@
-import Instagram from "../images/icon/instagram.png";
-import Facebook from "../images/icon/facebook.png";
-import Gmail from "../images/icon/gmail.png";
-import Gmail48 from "../images/icon/gmail-48.png";
-import GitHubGIF from "../images/icon/githubGIF.gif";
-import Phone48 from "../images/icon/phone-48.png";
-import JavaGIF from "../images/icon/javaGIF.gif";
+import Instagram from "../../assets/icon/instagram.png";
+import Facebook from "../../assets/icon/facebook.png";
+import Gmail from "../../assets/icon/gmail.png";
+import Gmail48 from "../../assets/icon/gmail-48.png";
+import GitHubGIF from "../../assets/icon/githubGIF.gif";
+import Phone48 from "../../assets/icon/phone-48.png";
+import JavaGIF from "../../assets/icon/javaGIF.gif";
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className="h-full pl-[21rem] pr-[5rem] pt-[3rem] text-[1rem] font-serif bg-white"
-    >
-      <h1 className="mb-1 text-[2rem]">TRƯƠNG THANH BÌNH</h1>
+    <section id="about" className="cv-container">
+      <h1 className="cv-title mb-1">TRƯƠNG THANH BÌNH</h1>
       <div className="mb-2 flex items-center space-x-2 text-gray-800 hover:text-orange-600">
         <img className="h-[40px] w-[40px]" src={JavaGIF} alt="JAVA" />
         <span className="pt-[10px] text-[18px]">Java Developer</span>

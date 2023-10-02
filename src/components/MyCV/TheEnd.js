@@ -1,11 +1,8 @@
-import CatCodes from "../images/icon/bongoCatCodes.gif";
+import CatCodes from "../../assets/icon/bongoCatCodes.gif";
 
 const TheEnd = () => {
   return (
-    <section
-      id="theEnd"
-      className="h-[99vh] px-[21rem] pt-[7rem] text-[16px] font-serif"
-    >
+    <section id="theEnd" className="cv-container pt-[7rem] font-serif">
       <h1 className="mb-2 text-[3rem]">THE END</h1>
       <p className="mb-2">
         Finally, I would like to say <b>"Thank You"</b> for spent time to look

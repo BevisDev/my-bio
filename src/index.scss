@@ -18,10 +18,27 @@
 }
 
 @layer components {
-  .background1 {
-    background-color: #f7f5f2;
+  .cv-sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    text-align: center;
   }
-  
+
+  .cv-container {
+    height: 100vh;
+    padding-left: 18rem;
+    padding-right: 2.5rem;
+    padding-top: 2.5rem;
+    font-family: sans-serif;
+    background-color: #f7f5f2;
+    font-size: 1rem;
+  }
+
+  .cv-title {
+    font-size: 2.5rem;
+  }
+
   .dash-board-container-800 {
     width: 800px;
     @apply mx-auto;
@@ -50,5 +67,10 @@
 
   .banner .swiper {
     height: 100%;
+  }
+
+  .certificate-list .swiper-slide {
+    width: 320px;
+    height: auto;
   }
 }

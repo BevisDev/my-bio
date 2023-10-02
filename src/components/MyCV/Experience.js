@@ -1,12 +1,9 @@
-import STAR from "../images/icon/start-94.png";
+import STAR from "../../assets/icon/start-94.png";
 
 const Experience = () => {
   return (
-    <section
-      id="experience"
-      className="h-full pl-[21rem] pr-[5rem] pt-[3rem] text-[1rem] font-serif bg-white"
-    >
-      <h1 className="mb-1 text-[2rem]">Experience</h1>
+    <section id="experience" className="cv-container">
+      <h1 className="cv-title mb-1">Experience</h1>
       <div className="project_1">
         <div className="mb-2 flex justify-between">
           <div className="flex items-center gap-2">
