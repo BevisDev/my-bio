@@ -4,10 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ["DM Sans", "sans-serif"],
+        sans: ["Graphik", "sans-serif"],
       },
       colors: {
         primary: "#F62682",
+        second: "#f7f5f2",
       },
     },
   },

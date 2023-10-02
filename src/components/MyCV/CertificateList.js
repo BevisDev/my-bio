@@ -5,7 +5,7 @@ import "swiper/scss";
 const CertificateList = () => {
   return (
     <section id="certificates" className="cv-container">
-      <h1 className="cv-title mb-2">CERTIFICATES</h1>
+      <h1 className="mb-2">CERTIFICATES</h1>
       <div className="certificate-list">
         <Swiper grabCursor={"true"} spaceBetween={25} slidesPerView={"auto"}>
           <SwiperSlide>

@@ -1,10 +1,5 @@
 const Skills = () => {
-  return (
-    <section
-      id="skills"
-      className="cv-container pt-[7rem] font-serif"
-    ></section>
-  );
+  return <section id="skills" className="cv-container"></section>;
 };
 
 export default Skills;

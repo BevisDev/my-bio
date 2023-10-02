@@ -3,45 +3,33 @@
 @tailwind utilities;
 
 @layer base {
+  h1 {
+    @apply text-[2.3rem];
+  }
+  h3 {
+    @apply text-[20px];
+  }
   body {
-    @apply font-body;
+    @apply font-sans bg-second text-[1rem];
   }
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
+  .flex-center {
+    @apply flex justify-center items-center;
   }
-  100% {
-    transform: translateX(-100%);
+  .flex-items-center {
+    @apply flex items-center;
+  }
+  .image {
+    @apply w-full h-full object-cover;
   }
 }
 
 @layer components {
   .cv-sidebar {
-    height: 100vh;
-    width: 250px;
-    position: fixed;
-    text-align: center;
+    @apply h-[100vh] w-[250px] fixed text-center;
   }
 
   .cv-container {
-    height: 100vh;
-    padding-left: 18rem;
-    padding-right: 2.5rem;
-    padding-top: 2.5rem;
-    font-family: sans-serif;
-    background-color: #f7f5f2;
-    font-size: 1rem;
-  }
-
-  .cv-title {
-    font-size: 2.5rem;
-  }
-
-  .dash-board-container-800 {
-    width: 800px;
-    @apply mx-auto;
+    @apply h-[100vh] pl-[18rem] pr-[2.5rem] pt-[2.5rem];
   }
 
   .container-1280 {
@@ -72,5 +60,18 @@
   .certificate-list .swiper-slide {
     width: 320px;
     height: auto;
+  }
+
+  .star-icons {
+    @apply h-[15px];
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }

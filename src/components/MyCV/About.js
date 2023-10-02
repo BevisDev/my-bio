@@ -1,3 +1,9 @@
+import {
+  FACEBOOK_PATH,
+  GITHUB_PATH,
+  INSTAGRAM_PATH,
+  MAIL_TO_ME,
+} from "../../constant/PathConst";
 import Instagram from "../../assets/icon/instagram.png";
 import Facebook from "../../assets/icon/facebook.png";
 import Gmail from "../../assets/icon/gmail.png";
@@ -9,24 +15,30 @@ import JavaGIF from "../../assets/icon/javaGIF.gif";
 const About = () => {
   return (
     <section id="about" className="cv-container">
-      <h1 className="cv-title mb-1">TRƯƠNG THANH BÌNH</h1>
-      <div className="mb-2 flex items-center space-x-2 text-gray-800 hover:text-orange-600">
-        <img className="h-[40px] w-[40px]" src={JavaGIF} alt="JAVA" />
+      <h1 className="mb-1">TRƯƠNG THANH BÌNH</h1>
+      <div className="flex-items-center  mb-2 space-x-2 text-gray-800 hover:text-orange-600">
+        <div className="h-[32px] w-[32px]">
+          <img className="image" src={JavaGIF} alt="JAVA" />
+        </div>
         <span className="pt-[10px] text-[18px]">Java Developer</span>
       </div>
-      <div className="contact flex items-center gap-5">
+      <div className="contact flex-items-center gap-5">
         <a
           href="mailto:dev.binhtt@gmail.com"
-          class="flex items-center space-x-2 text-gray-800 dark:text-white hover:text-blue-500"
+          class="flex-items-center space-x-2 text-gray-800 dark:text-white hover:text-blue-500"
         >
-          <img className="h-[30px] w-[30px]" src={Gmail48} alt="JAVA" />
+          <div className="h-[30px] w-[30px]">
+            <img className="image" src={Gmail48} alt="JAVA" />
+          </div>
           <span>dev.binhtt@gmail.com</span>
         </a>
         <a
           href="0901850057"
-          class="flex items-center space-x-2 text-gray-800 dark:text-white hover:text-blue-500"
+          class="flex-items-center space-x-2 text-gray-800 dark:text-white hover:text-blue-500"
         >
-          <img className="h-[30px] w-[30px]" src={Phone48} alt="Phone" />
+          <div className="h-[30px] w-[30px]">
+            <img className="image" src={Phone48} alt="Phone" />
+          </div>
           <span>0901850057</span>
         </a>
       </div>
@@ -41,10 +53,8 @@ const About = () => {
         learning capability and my adaptability can lead to success.
       </p>
       <hr className="mb-2" />
-      <span className="border-[1px] bg-yellow-400 p-[3px] text-[1rem]">
-        Summary:
-      </span>
-      <ul className="list-disc mt-2">
+      <span className="border-[1px] bg-yellow-400 p-[3px]">Summary:</span>
+      <ul className="list-disc mt-2 pl-4">
         <li className="mb-1">2+ years of experience in Developer</li>
         <li className="mb-1">
           English Intermediate level, can communicate fluently
@@ -71,18 +81,18 @@ const About = () => {
       <h2 className="text-[18px] mb-2" align="center">
         👽 Where to find me 👽
       </h2>
-      <div className="flex justify-center items-center mb-3">
-        <a href="mailto:dev.binhtt@gmail.com" target="top">
+      <div className="flex-center mb-3">
+        <a href={MAIL_TO_ME} target="blank">
           <img src={Gmail} alt="GMAIL" />
         </a>
-        <a href="https://www.facebook.com/BevisDev" target="blank">
+        <a href={FACEBOOK_PATH} target="blank">
           <img src={Facebook} alt="FACEBOOK" />
         </a>
-        <a href="https://www.instagram.com/__tuitenbinh_/" target="blank">
+        <a href={INSTAGRAM_PATH} target="blank">
           <img src={Instagram} alt="INSTAGRAM" />
         </a>
-        <a href="https://github.com/BevisDev" target="top">
-          <img className="w-[90px] h-[90px]" src={GitHubGIF} alt="GITHUB" />
+        <a href={GITHUB_PATH} className="w-[85px] h-[85px]" target="blank">
+          <img className="image" src={GitHubGIF} alt="GITHUB" />
         </a>
       </div>
     </section>
