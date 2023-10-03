@@ -12,29 +12,15 @@
   body {
     @apply font-sans bg-second text-[1rem];
   }
-  .flex-center {
-    @apply flex justify-center items-center;
-  }
-  .flex-items-center {
-    @apply flex items-center;
-  }
-  .image {
-    @apply w-full h-full object-cover;
-  }
 }
 
-@layer components {
+@layer mycv {
   .cv-sidebar {
     @apply h-[100vh] w-[250px] fixed text-center;
   }
 
   .cv-container {
     @apply h-[100vh] pl-[18rem] pr-[2.5rem] pt-[2.5rem];
-  }
-
-  .container-1280 {
-    max-width: 1280px;
-    @apply mx-auto;
   }
 
   .marquee-container {
@@ -48,13 +34,13 @@
     animation: marquee 12s linear infinite;
   }
 
-  .movie-list .swiper-slide {
-    width: 320px;
-    height: auto;
-  }
-
-  .banner .swiper {
-    height: 100%;
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
 
   .certificate-list .swiper-slide {
@@ -67,11 +53,30 @@
   }
 }
 
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
+@layer components {
+  .container-1280 {
+    max-width: 1280px;
+    @apply mx-auto;
   }
-  100% {
-    transform: translateX(-100%);
+
+  .movie-list .swiper-slide {
+    width: 320px;
+    height: auto;
+  }
+
+  .banner .swiper {
+    height: 100%;
+  }
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .flex-items-center {
+    @apply flex items-center;
+  }
+  .image {
+    @apply w-full h-full object-cover;
   }
 }
