@@ -12,7 +12,9 @@ const TheEnd = () => {
         You're a flower on earth, let's make your life beautiful and meaningful
         (◕‿↼)
       </p>
-      <img className="w-[28rem] h-[28rem]" src={CatCodes} alt="CAT" />
+      <div className="w-[28rem] h-[28rem]">
+        <img className="image" src={CatCodes} alt="CAT" />
+      </div>
     </section>
   );
 };

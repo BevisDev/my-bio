@@ -14,13 +14,27 @@
   }
 }
 
-@layer mycv {
-  .cv-sidebar {
-    @apply h-[100vh] w-[250px] fixed text-center;
+@layer components {
+  .container-1280 {
+    max-width: 1280px;
+    @apply mx-auto;
   }
 
   .cv-container {
     @apply h-[100vh] pl-[18rem] pr-[2.5rem] pt-[2.5rem];
+  }
+
+  .cv-sidebar {
+    @apply h-[100vh] w-[250px] fixed text-center;
+  }
+
+  .movie-list .swiper-slide {
+    width: 320px;
+    height: auto;
+  }
+
+  .banner .swiper {
+    height: 100%;
   }
 
   .marquee-container {
@@ -50,22 +64,6 @@
 
   .star-icons {
     @apply h-[15px];
-  }
-}
-
-@layer components {
-  .container-1280 {
-    max-width: 1280px;
-    @apply mx-auto;
-  }
-
-  .movie-list .swiper-slide {
-    width: 320px;
-    height: auto;
-  }
-
-  .banner .swiper {
-    height: 100%;
   }
 }
 
