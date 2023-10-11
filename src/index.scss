@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+// define variable
+$dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1772&q=80";
+
 @layer base {
   h1 {
-    @apply text-[2.3rem];
+    @apply text-[51px];
   }
   h3 {
-    @apply text-[20px];
+    @apply text-[30px];
   }
   body {
     @apply font-sans bg-second text-[1rem];
@@ -16,16 +19,58 @@
 
 @layer components {
   .container-1280 {
-    max-width: 1280px;
-    @apply mx-auto;
+    @apply mx-auto max-w-7xl;
   }
 
-  .cv-container {
-    @apply h-[100vh] pl-[18rem] pr-[2.5rem] pt-[2.5rem];
+  #dashboard {
+    background-image: url($dashboard-bg);
+    @apply flex-items-center h-[100vh];
   }
 
-  .cv-sidebar {
-    @apply h-[100vh] w-[250px] fixed text-center;
+  .dashboard-container {
+    max-width: 800px;
+    @apply mx-auto bg-second p-5 text-[1rem] rounded-xl;
+  }
+
+  .dashboard-avatar:hover img {
+    transform: scale(1.4);
+  }
+
+  .dashboard-avatar img {
+    transition: trannsform 0.1s;
+  }
+
+  .dashboard-social .icon {
+    @apply block h-[60px] w-[60px] rounded-full shadow-md p-2 bg-[#f1f1f2];
+  }
+
+  .dashboard-projects .project {
+    @apply mb-2 rounded-lg shadow-md h-[3rem] flex-center;
+  }
+
+  #cv-container {
+    @apply ml-[16rem] px-5 pt-5;
+  }
+
+  .cv-section {
+    @apply h-[100vh];
+  }
+
+  // .cv-container {
+  //   @apply h-[100vh] pl-[18rem] pr-[2.5rem] pt-[2.5rem];
+  // }
+
+  #cv-sidebar {
+    @apply h-full w-[250px] fixed text-center flex-col-center bg-primary;
+  }
+
+  .cv-avatar {
+    border-radius: 4.5rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.4);
+  }
+
+  .cv-list-icon-skills {
+    font-size: 50px;
   }
 
   .movie-list .swiper-slide {
@@ -65,16 +110,34 @@
   .star-icons {
     @apply h-[15px];
   }
+
+  #my-todo {
+    @apply container-1280;
+  }
 }
 
 @layer utilities {
   .flex-center {
     @apply flex justify-center items-center;
   }
+
+  .flex-col-center {
+    @apply flex-center flex-col;
+  }
+
   .flex-items-center {
     @apply flex items-center;
   }
+
+  .flex-col-items-center {
+    @apply flex-items-center flex-col;
+  }
+
   .image {
     @apply w-full h-full object-cover;
+  }
+
+  .image-circle {
+    @apply image rounded-full;
   }
 }

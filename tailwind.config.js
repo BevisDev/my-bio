@@ -4,11 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Graphik", "sans-serif"],
+        sans: ["Be Vietnam Pro", "sans-serif"],
       },
       colors: {
         primary: "#F62682",
         second: "#f7f5f2",
+        thirth: "#222438",
+        fourth: "#323239",
       },
     },
   },
