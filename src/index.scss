@@ -9,18 +9,26 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
   h1 {
     @apply text-[51px];
   }
+
+  h2 {
+    @apply text-[44px];
+  }
+
   h3 {
     @apply text-[30px];
   }
+
+  h4 {
+    @apply text-[24px];
+  }
+
   body {
     @apply font-sans bg-second text-[1rem];
   }
 }
 
 @layer components {
-  .container-1280 {
-    @apply mx-auto max-w-7xl;
-  }
+  /* 01: ========================================== DASH BOARD ==========================================*/
 
   #dashboard {
     background-image: url($dashboard-bg);
@@ -29,11 +37,11 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
 
   .dashboard-container {
     max-width: 800px;
-    @apply mx-auto bg-second p-5 text-[1rem] rounded-xl;
+    @apply mx-auto bg-gradient-to-r from-second to-[#e9ecf8] p-[30px] text-[1rem] rounded-xl;
   }
 
   .dashboard-avatar:hover img {
-    transform: scale(1.4);
+    transform: scale(1.3);
   }
 
   .dashboard-avatar img {
@@ -41,36 +49,67 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
   }
 
   .dashboard-social .icon {
-    @apply block h-[60px] w-[60px] rounded-full shadow-md p-2 bg-[#f1f1f2];
+    @apply block h-[60px] w-[60px] rounded-full shadow-md p-[10px] bg-[#f1f1f2];
   }
 
   .dashboard-projects .project {
     @apply mb-2 rounded-lg shadow-md h-[3rem] flex-center;
   }
 
+  /* 02: ========================================== MY CV ==========================================*/
+
   #cv-container {
-    @apply ml-[16rem] px-5 pt-5;
+    max-width: 1130px;
+    @apply mx-[15px] py-[68px];
   }
 
-  .cv-section {
-    @apply h-[100vh];
+  .cv-fixed-border {
+    @apply border-[1px] border-solid border-[#565656] rounded-[30px] fixed;
   }
+
+  #cv-sidebar {
+    @apply cv-fixed-border;
+  }
+
+  // .cv-section {
+  //   @apply h-[100vh];
+  // }
 
   // .cv-container {
   //   @apply h-[100vh] pl-[18rem] pr-[2.5rem] pt-[2.5rem];
   // }
 
-  #cv-sidebar {
-    @apply h-full w-[250px] fixed text-center flex-col-center bg-primary;
-  }
-
-  .cv-avatar {
-    border-radius: 4.5rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.4);
-  }
-
   .cv-list-icon-skills {
     font-size: 50px;
+  }
+
+  .menu-icon-link {
+    transition: transform 0.3s;
+    @apply flex-center relative w-[55px];
+  }
+
+  .menu-scroll li a:hover span,
+  .menu-icon-link:hover span {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .menu-icon-title {
+    @apply absolute right-[100%] block rounded-[5px] pt-[3px] px-[8px] text-[12px] bg-[#404042] text-[#fff] visible opacity-0;
+  }
+
+  .menu-icon-title::before {
+    content: "";
+    transform: rotate(54deg) skew(-8deg, -39deg);
+    z-index: -1;
+    @apply absolute top-[50%] right-[-3px] w-[10px] h-[10px] bg-[#404042] mt-[-5px];
+  }
+
+  /* 03: ========================================== MY MOVIE ==========================================*/
+
+  .container-1280 {
+    max-width: 1280px;
+    @apply mx-auto;
   }
 
   .movie-list .swiper-slide {

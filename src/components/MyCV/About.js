@@ -2,6 +2,7 @@ import {
   FACEBOOK_PATH,
   GITHUB_PATH,
   INSTAGRAM_PATH,
+  JAVA_ICON_PATH,
   MAIL_TO_ME,
 } from "../../constant/PathConst";
 import Instagram from "../../assets/icon/instagram.png";
@@ -10,17 +11,20 @@ import Gmail from "../../assets/icon/gmail.png";
 import Gmail48 from "../../assets/icon/gmail-48.png";
 import GitHubGIF from "../../assets/icon/githubGIF.gif";
 import Phone48 from "../../assets/icon/phone-48.png";
-import JavaGIF from "../../assets/icon/javaGIF.gif";
 
 const About = () => {
   return (
-    <section id="about" className="cv-container">
-      <h1 className="mb-1">TRƯƠNG THANH BÌNH</h1>
-      <div className="flex-items-center  mb-2 space-x-2 text-gray-800 hover:text-orange-600">
-        <div className="h-[32px] w-[32px]">
-          <img className="image" src={JavaGIF} alt="JAVA" />
+    <section id="about" className="cv-section">
+      <h1>TRƯƠNG THANH BÌNH</h1>
+      <div className="flex-items-center mb-2 gap-2 text-orange-600 hover:text-blue-500">
+        <div className="h-[40px] w-[40px]">
+          <img
+            className="image"
+            src={JAVA_ICON_PATH}
+            alt="java-coffee-cup-logo"
+          />
         </div>
-        <span className="pt-[10px] text-[18px]">Java Developer</span>
+        <h3 className="pt-[10px]">Java Developer</h3>
       </div>
       <div className="contact flex-items-center gap-5">
         <a
@@ -33,7 +37,7 @@ const About = () => {
           <span>dev.binhtt@gmail.com</span>
         </a>
         <a
-          href="0901850057"
+          href="#0901850057"
           class="flex-items-center space-x-2 text-gray-800 dark:text-white hover:text-blue-500"
         >
           <div className="h-[30px] w-[30px]">
@@ -42,8 +46,8 @@ const About = () => {
           <span>0901850057</span>
         </a>
       </div>
-      <div class="marquee-container my-1 text-[28px]">
-        <span class="marquee-content">Welcome to visit my CV online!</span>
+      <div class="marquee-container my-1">
+        <h3 class="marquee-content">Welcome to visit my CV online!</h3>
       </div>
       <p className="mb-2">
         - I am an experienced a Full-stack Developer with over 2 years of
@@ -53,7 +57,9 @@ const About = () => {
         learning capability and my adaptability can lead to success.
       </p>
       <hr className="mb-2" />
-      <span className="border-[1px] bg-yellow-400 p-[3px]">Summary:</span>
+      <span className="border-[1px] border-solid bg-yellow-300 p-[5px] rounded-md">
+        Summary:
+      </span>
       <ul className="list-disc mt-2 pl-4">
         <li className="mb-1">2+ years of experience in Developer</li>
         <li className="mb-1">

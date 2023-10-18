@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import CertificateCard from "./CertificateCard";
-import "swiper/scss";
 
 const CertificateList = () => {
   return (

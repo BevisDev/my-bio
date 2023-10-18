@@ -3,7 +3,7 @@ import { CAPITASTAR_PATH } from "../../constant/PathConst";
 
 const Experience = () => {
   return (
-    <section id="experience" className="cv-container">
+    <section id="experience" className="cv-section">
       <h1 className="mb-1">Experience</h1>
       <div className="project_1">
         <div className="mb-2 flex justify-between">
@@ -36,7 +36,7 @@ const Experience = () => {
           </div>
           <div className="description mb-2">
             <span className="border-[1px] bg-yellow-400 p-[3px]">Size:</span>
-            <span>35 member</span>
+            <span>37 member</span>
           </div>
           <div className="description mb-2">
             <span className="border-[1px] bg-yellow-400 p-[3px]">
@@ -72,48 +72,6 @@ const Experience = () => {
                 site.
               </li>
             </ul>
-          </div>
-        </div>
-      </div>
-      <hr className="my-2" />
-      <div className="project_2">
-        <div className="mb-2 flex justify-between">
-          <div className="flex-items-center gap-2">
-            <div className="star-icons">
-              <img className="image" src={STAR} alt="STAR" />
-            </div>
-            <h3>
-              <a href="#private">Ecommerce Website</a>
-            </h3>
-          </div>
-          <div className="joined">April 2022 - August 2022</div>
-        </div>
-        <div className="pr-[15rem]">
-          <div className="description mb-2">
-            <span className="border-[1px] bg-yellow-400 p-[3px]">
-              Description:
-            </span>
-            <p>
-              This is a project for fresher academy in FPT. Design and develop a
-              website to sell and manage technology such as computers, laptops,
-              cameras, and authorized user.
-            </p>
-          </div>
-          <div className="description mb-2">
-            <span className="border-[1px] bg-yellow-400 p-[3px]">Size:</span>
-            <span>4</span>
-          </div>
-          <div className="description mb-2">
-            <span className="border-[1px] bg-yellow-400 p-[3px]">
-              Technologies:
-            </span>
-            <span>Eclipse, Visual Code, SQL Server</span>
-          </div>
-          <div className="description mb-2">
-            <span className="border-[1px] bg-yellow-400 p-[3px]">
-              Responsibilities:
-            </span>
-            <span>Develop application both server side and client side.</span>
           </div>
         </div>
       </div>
