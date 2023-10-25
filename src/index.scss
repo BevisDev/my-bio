@@ -18,10 +18,6 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
     @apply text-[30px];
   }
 
-  h4 {
-    @apply text-[24px];
-  }
-
   body {
     @apply font-sans bg-second text-[1rem];
   }
@@ -57,12 +53,6 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
   }
 
   /* 02: ========================================== MY CV ==========================================*/
-
-  #cv-container {
-    max-width: 1130px;
-    @apply mx-[15px] py-[68px];
-  }
-
   .cv-fixed-border {
     @apply border-[1px] border-solid border-[#565656] rounded-[30px] fixed;
   }
@@ -71,16 +61,14 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
     @apply cv-fixed-border;
   }
 
-  // .cv-section {
-  //   @apply h-[100vh];
-  // }
-
-  // .cv-container {
-  //   @apply h-[100vh] pl-[18rem] pr-[2.5rem] pt-[2.5rem];
-  // }
-
   .cv-list-icon-skills {
     font-size: 50px;
+  }
+
+  .home-container {
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: auto;
   }
 
   .menu-icon-link {

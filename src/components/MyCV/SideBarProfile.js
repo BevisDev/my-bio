@@ -4,7 +4,7 @@ import { PHONE_ICON_PATH } from "../../constant/PathConst";
 
 const SideBarProfile = () => {
   return (
-    <div
+    <section
       id="cv-sidebar"
       className="max-w-[350px] left-[20px] top-[50%] translate-y-[-50%] z-10 p-[30px]"
     >
@@ -21,13 +21,11 @@ const SideBarProfile = () => {
         <div>District 7, Ho Chi Minh City, VietNam.</div>
       </div>
       <DashBoardSocial type={CV_SOCIAL_TYPE} />
-      <div className="flex-center bg-[#28e98c] border-[1px] border-solid border-[#565656] rounded-[30px] p-2 gap-2">
-        <div className="w-[25px] h-[25px]">
-          <img src={PHONE_ICON_PATH} className="image" alt="phone--v1" />
-        </div>
-        <span className="text-white">+84 901 850 057</span>
+      <div className="flex-center text-white bg-[#28e98c] border-[1px] border-solid border-[#565656] rounded-[30px] p-2 gap-2">
+        <i class="las la-phone-volume text-[25px]"></i>
+        <span className="">+84 901 850 057</span>
       </div>
-    </div>
+    </section>
   );
 };
 

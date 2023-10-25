@@ -12,3 +12,12 @@ export const LATEST = "latest";
 export const UPCOMMING = "upcoming";
 export const W500 = "w500";
 export const ORIGINAL = "original";
+
+// ==================== LINK BY ID ON MY CV PAGE
+export const CV_HOME_ID = "#home";
+export const CV_ABOUT_ID = "#about";
+export const CV_EXPERIENCE_ID = "#experience";
+export const CV_EDUCATION_ID = "#education";
+export const CV_SKILLS_ID = "#skills";
+export const CV_CERTIFICATES_ID = "#certificates";
+export const CV_THEEND_ID = "#theEnd";
