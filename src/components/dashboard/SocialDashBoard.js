@@ -10,7 +10,7 @@ import {
   MAIL_TO_ME,
 } from "../../constant/PathConst";
 
-const DashBoardSocial = (props) => {
+const SocialDashBoard = (props) => {
   const { type } = props;
 
   const handleSassByType = (ele, type) => {
@@ -63,4 +63,4 @@ const DashBoardSocial = (props) => {
   );
 };
 
-export default DashBoardSocial;
+export default SocialDashBoard;

@@ -1,4 +1,4 @@
-const Home = () => {
+const HomeCV = () => {
   return (
     <section id="px-[68px] relative">
       <div className="home-container">
@@ -20,4 +20,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomeCV;

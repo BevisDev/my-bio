@@ -1,6 +1,6 @@
 import PSM1 from "../../assets/certificates/PSM1.jpg";
 
-const CertificateCard = () => {
+const CertificateCardCV = () => {
   return (
     <section className="w-full h-full select-none flex-center flex-col p-3 bg-white shadow-md rounded-lg">
       <a href="#image">
@@ -15,4 +15,4 @@ const CertificateCard = () => {
   );
 };
 
-export default CertificateCard;
+export default CertificateCardCV;

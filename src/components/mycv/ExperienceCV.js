@@ -1,7 +1,7 @@
 import STAR from "../../assets/icon/start-94.png";
 import { CAPITASTAR_PATH } from "../../constant/PathConst";
 
-const Experience = () => {
+const ExperienceCV = () => {
   return (
     <section id="experience" className="cv-section">
       <h1 className="mb-1">Experience</h1>
@@ -79,4 +79,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default ExperienceCV;

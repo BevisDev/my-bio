@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import CertificateCard from "./CertificateCard";
 
-const CertificateList = () => {
+const CertificateListCV = () => {
   return (
     <section id="certificates" className="cv-container">
       <h1 className="mb-2">CERTIFICATES</h1>
@@ -31,4 +31,4 @@ const CertificateList = () => {
   );
 };
 
-export default CertificateList;
+export default CertificateListCV;

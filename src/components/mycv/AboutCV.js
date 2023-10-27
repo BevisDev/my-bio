@@ -12,7 +12,7 @@ import Gmail48 from "../../assets/icon/gmail-48.png";
 import GitHubGIF from "../../assets/icon/githubGIF.gif";
 import Phone48 from "../../assets/icon/phone-48.png";
 
-const About = () => {
+const AboutCV = () => {
   return (
     <section id="about cv-container relative">
       <div class="about-container">
@@ -108,4 +108,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutCV;

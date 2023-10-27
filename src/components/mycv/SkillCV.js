@@ -1,4 +1,4 @@
-const Skills = () => {
+const SkillCV = () => {
   return (
     <section id="skills" className="cv-container">
       <h1 className="mb-1">Skills</h1>
@@ -41,4 +41,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default SkillCV;

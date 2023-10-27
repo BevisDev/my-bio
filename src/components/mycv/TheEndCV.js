@@ -1,6 +1,6 @@
 import CatCodes from "../../assets/icon/bongoCatCodes.gif";
 
-const TheEnd = () => {
+const TheEndCV = () => {
   return (
     <section id="theEnd" className="cv-container pt-[7rem]">
       <h1 className="mb-2">THE END</h1>
@@ -19,4 +19,4 @@ const TheEnd = () => {
   );
 };
 
-export default TheEnd;
+export default TheEndCV;

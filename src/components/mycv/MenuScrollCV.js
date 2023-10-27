@@ -6,9 +6,9 @@ import {
   CV_HOME_ID,
   CV_SKILLS_ID,
   CV_THEEND_ID,
-} from "./../../constant/Const";
+} from "../../constant/Const";
 
-const MenuScroll = () => {
+const MenuScrollCV = () => {
   return (
     <section className="menu-scroll">
       <ul className="cv-fixed-border flex-col-center gap-5 right-[68px] top-[50%] translate-y-[-50%] text-center p-6 z-20 border-[#575757] w-[55px]">
@@ -59,4 +59,4 @@ const MenuScroll = () => {
   );
 };
 
-export default MenuScroll;
+export default MenuScrollCV;

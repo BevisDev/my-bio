@@ -1,7 +1,7 @@
 import { HUTECH_PATH } from "../../constant/PathConst";
 import SHARING from "../../assets/icon/sharing-94.png";
 
-const Education = () => {
+const EducationCV = () => {
   return (
     <section id="education" className="cv-container">
       <h1 className="mb-1">EDUCATION</h1>
@@ -50,4 +50,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default EducationCV;

@@ -1,14 +1,14 @@
-import DashBoardHeader from "../../components/dashboard/DashBoardHeader";
-import DashBoardProjects from "../../components/dashboard/DashBoardProjects";
-import DashBoardSocial from "../../components/dashboard/DashBoardSocial";
+import ProjectDashBoard from "../../components/dashboard/ProjectDashBoard";
+import HeaderDashBoard from "./../../components/dashboard/HeaderDashBoard";
+import SocialDashBoard from "./../../components/dashboard/SocialDashBoard";
 
 const DashBoard = () => {
   return (
     <section id="dashboard">
       <div className="dashboard-container">
-        <DashBoardHeader />
-        <DashBoardSocial />
-        <DashBoardProjects />
+        <HeaderDashBoard />
+        <SocialDashBoard />
+        <ProjectDashBoard />
       </div>
     </section>
   );

@@ -1,8 +1,7 @@
-import DashBoardSocial from "../dashboard/DashBoardSocial";
+import SocialDashBoard from "../dashboard/SocialDashBoard";
 import { CV_SOCIAL_TYPE } from "../../constant/Const";
-import { PHONE_ICON_PATH } from "../../constant/PathConst";
 
-const SideBarProfile = () => {
+const SideBarProfileCV = () => {
   return (
     <section
       id="cv-sidebar"
@@ -20,7 +19,7 @@ const SideBarProfile = () => {
         <div className="mb-1">dev.binhtt@gmail.com</div>
         <div>District 7, Ho Chi Minh City, VietNam.</div>
       </div>
-      <DashBoardSocial type={CV_SOCIAL_TYPE} />
+      <SocialDashBoard type={CV_SOCIAL_TYPE} />
       <div className="flex-center text-white bg-[#28e98c] border-[1px] border-solid border-[#565656] rounded-[30px] p-2 gap-2">
         <i class="las la-phone-volume text-[25px]"></i>
         <span className="">+84 901 850 057</span>
@@ -29,4 +28,4 @@ const SideBarProfile = () => {
   );
 };
 
-export default SideBarProfile;
+export default SideBarProfileCV;

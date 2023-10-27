@@ -1,4 +1,4 @@
-const DashBoardHeader = () => {
+const HeaderDashBoard = () => {
   return (
     <header className="dashboard-header flex-items-center">
       <div className="dashboard-intro">
@@ -27,4 +27,4 @@ const DashBoardHeader = () => {
   );
 };
 
-export default DashBoardHeader;
+export default HeaderDashBoard;
