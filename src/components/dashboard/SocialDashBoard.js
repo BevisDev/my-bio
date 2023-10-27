@@ -1,4 +1,3 @@
-import { CV_SOCIAL_TYPE, UL_DASHBOARD } from "../../constant/Const";
 import {
   FACEBOOK_ICON_PATH,
   FACEBOOK_PATH,
@@ -9,27 +8,14 @@ import {
   INSTAGRAM_PATH,
   MAIL_TO_ME,
 } from "../../constant/PathConst";
+import { handleStyle } from "../../utils/CommonsUtils";
 
 const SocialDashBoard = (props) => {
-  const { type } = props;
-
-  const handleSassByType = (ele, type) => {
-    let result = "";
-    switch (ele) {
-      case UL_DASHBOARD:
-        type === CV_SOCIAL_TYPE
-          ? (result = "flex-center mt-1 mb-3 gap-3")
-          : (result = "flex-center mt-1 mb-3 gap-16");
-        break;
-      default:
-        break;
-    }
-    return result;
-  };
+  const { eleDOM } = props;
 
   return (
     <section className="dashboard-social mb-3">
-      <ul className={handleSassByType(UL_DASHBOARD, type)}>
+      <ul className={handleStyle(eleDOM)}>
         <li className="text-center">
           <a href={FACEBOOK_PATH} target="blank" className="icon">
             <img
@@ -38,7 +24,7 @@ const SocialDashBoard = (props) => {
               alt="facebook-new"
             />
           </a>
-          <span className="mt-1">facebook</span>
+          <span className="ml-[-10px]">facebook</span>
         </li>
         <li className="text-center">
           <a href={INSTAGRAM_PATH} target="blank" className="icon">

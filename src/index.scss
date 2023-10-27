@@ -6,18 +6,6 @@
 $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1772&q=80";
 
 @layer base {
-  h1 {
-    @apply text-[51px];
-  }
-
-  h2 {
-    @apply text-[44px];
-  }
-
-  h3 {
-    @apply text-[30px];
-  }
-
   body {
     @apply font-sans bg-second text-[1rem];
   }
@@ -45,7 +33,7 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
   }
 
   .dashboard-social .icon {
-    @apply block h-[60px] w-[60px] rounded-full shadow-md p-[10px] bg-[#f1f1f2];
+    @apply block h-[60px] w-[60px] rounded-full shadow-md p-[10px] bg-[#f1f1f2] mb-1;
   }
 
   .dashboard-projects .project {
@@ -65,10 +53,12 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
     font-size: 50px;
   }
 
-  .home-container {
-    max-width: 1130px;
-    padding: 0 15px;
-    margin: auto;
+  .cv-main-container {
+    @apply max-w-[1130px] px-[15px] m-auto;
+  }
+
+  .cv-main-section-container {
+    @apply w-full max-w-[770px] ml-auto relative z-[3];
   }
 
   .menu-icon-link {
@@ -107,26 +97,6 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
 
   .banner .swiper {
     height: 100%;
-  }
-
-  .marquee-container {
-    white-space: nowrap;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .marquee-content {
-    display: inline-block;
-    animation: marquee 12s linear infinite;
-  }
-
-  @keyframes marquee {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
   }
 
   .certificate-list .swiper-slide {
