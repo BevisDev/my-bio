@@ -1,8 +1,6 @@
-import { CV_HOME_ID } from "../../constant/Const";
-
 const HomeCV = () => {
   return (
-    <section id={CV_HOME_ID} className="px-[68px] py-[16px] h-[100vh]">
+    <section className="px-[68px] py-[16px]">
       <div className="cv-main-container">
         <div className="cv-main-section-container">
           <section className="">
@@ -10,8 +8,10 @@ const HomeCV = () => {
               <i className="las la-home text-[14px] mr-[10px] mb-[1px]"></i>
               INTRODUCE
             </div>
-            <h1 className="text-[78px] leading-[90px] tracking-[-0.2px] mb-11">
-              Hi there 👋, I'm Truong Thanh Binh, Software Developer
+            <h1 className="text-[78px] text-white leading-[90px] tracking-[-0.2px] mb-11">
+              Hi there 👋, I'm {""}
+              <span className="text-[#28e98c]">Truong Thanh Binh</span>,
+              Software Developer
             </h1>
           </section>
           <p className="max-w-[500px] mb-[31px]">
