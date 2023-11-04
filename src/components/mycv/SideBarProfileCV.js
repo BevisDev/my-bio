@@ -22,7 +22,7 @@ const SideBarProfileCV = () => {
         <div>District 7, Ho Chi Minh City, VietNam.</div>
       </div>
       <SocialDashBoard eleDOM={UL_SOCIAL_CV} />
-      <div className="flex-center text-white bg-[#28e98c] border-[1px] border-solid border-[#565656] rounded-[30px] p-2 gap-2">
+      <div className="flex-center text-white bg-primary border-[1px] border-solid border-[#565656] rounded-[30px] p-2 gap-2">
         <i class="las la-phone-volume text-[25px]"></i>
         <span className="">+84 901 850 057</span>
       </div>

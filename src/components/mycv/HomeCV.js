@@ -10,8 +10,8 @@ const HomeCV = () => {
             </div>
             <h1 className="text-[78px] text-white leading-[90px] tracking-[-0.2px] mb-11">
               Hi there 👋, I'm {""}
-              <span className="text-[#28e98c]">Truong Thanh Binh</span>,
-              Software Developer
+              <span className="text-primary">Truong Thanh Binh</span>, Software
+              Developer
             </h1>
           </section>
           <p className="max-w-[500px] mb-[31px]">

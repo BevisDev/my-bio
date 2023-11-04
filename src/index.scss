@@ -83,6 +83,29 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
     @apply absolute top-[50%] right-[-3px] w-[10px] h-[10px] bg-[#404042] mt-[-5px];
   }
 
+  .capitaStar-card::before {
+    content: "";
+    background-color: #656565;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: -5px;
+    top: 7px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+
+  .capitaStar-card::after {
+    content: "";
+    background-color: #333333;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: -1;
+  }
+
   /* 03: ========================================== MY MOVIE ==========================================*/
 
   .container-1280 {
@@ -105,7 +128,7 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
   }
 
   .star-icons {
-    @apply h-[15px];
+    @apply h-[16px];
   }
 
   #my-todo {

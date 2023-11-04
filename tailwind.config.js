@@ -7,8 +7,8 @@ module.exports = {
         sans: ["Inter", "sans-serif"],
       },
       colors: {
-        primary: "#F62682",
-        second: "#f7f5f2",
+        primary: "#28e98c",
+        second: "#F62682",
         thirth: "#222438",
         fourth: "#323239",
       },
