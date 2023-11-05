@@ -17,6 +17,7 @@ const ExperienceCV = () => {
           </div>
           <div className="cv-project">
             <CapitaStarCard />
+            <CapitaStarCard />
           </div>
         </div>
       </div>

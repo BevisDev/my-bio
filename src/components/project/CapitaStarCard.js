@@ -10,6 +10,9 @@ const CapitaStarCard = () => {
       after:contents-[''] after:bg-[#333333] after:absolute after:left-0 after:top-[10px] after:w-[1px] after:h-full after:z-[-1]"
     >
       <div className="joined-date mb-7">August 2022 - Present</div>
+      <div className="text-[24px] font-light mb-[12px] text-white">
+        FPT Software
+      </div>
       <div className="mb-[5px] flex items-center justify-between">
         <div className="flex-items-center gap-2">
           <div className="star-icons flex-items-center">
@@ -17,7 +20,7 @@ const CapitaStarCard = () => {
             <img className="image" src={STAR} alt="STAR" />
             <img className="image" src={STAR} alt="STAR" />
           </div>
-          <span className="text-[#40ced9] text-[24px] font-light">
+          <span className="text-[#40ced9] text-[20px] font-light">
             <a href={CAPITASTAR_PATH} target="blank">
               CapitaStar
             </a>
@@ -35,7 +38,7 @@ const CapitaStarCard = () => {
           web report for client and exposing api for partners integrate.
         </i>
       </p>
-      <div className="text-[24px] text-white font-light mb-[5px]">
+      <div className="text-[20px] text-white font-light mb-[5px]">
         Full-stack Developer
       </div>
       <ul className="list-disc pl-[16px] text-[16px]">
