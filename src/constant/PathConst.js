@@ -17,17 +17,10 @@ export const FACEBOOK_PATH = "https://www.facebook.com/BevisDev";
 export const GITHUB_PATH = "https://github.com/BevisDev";
 export const LINKEDIN_PATH =
   "https://www.linkedin.com/in/binh-truong-thanh-7a533a247";
-export const INSTAGRAM_PATH = "https://www.instagram.com/__tuitenbinh_";
 
 // ======================== LINK EXPERIENCE
 export const CAPITASTAR_PATH = "https://www.capitastar.com/sg/en.html";
 export const HUTECH_PATH = "https://www.hutech.edu.vn";
 
 // ==================== LINK ICON PATH https://icons8.com/icons/set/phone
-export const JAVA_ICON_PATH =
-  "https://img.icons8.com/fluency/48/java-coffee-cup-logo.png";
-export const FACEBOOK_ICON_PATH =
-  "https://img.icons8.com/ios/50/facebook-new.png";
-export const LINKEDIN_ICON_PATH = "https://img.icons8.com/ios/50/linkedin.png";
-export const GMAIL_ICON_PATH = "https://img.icons8.com/ios/50/gmail--v1.png";
-export const GITHUB_ICON_PATH = "https://img.icons8.com/ios/50/github--v1.png";
+export const GMAIL_ICON_PATH = "https://img.icons8.com/color/48/gmail-new.png";

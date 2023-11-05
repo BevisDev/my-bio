@@ -3,7 +3,7 @@ import CapitaStarCard from "../project/CapitaStarCard";
 
 const ExperienceCV = () => {
   return (
-    <section id={CV_EXPERIENCE_ID} className="py-[50px]">
+    <section id={CV_EXPERIENCE_ID} className="pt-[90px] pb-[40px]">
       <div className="cv-main-container">
         <div className="cv-main-section-container">
           <div className="experience-header">

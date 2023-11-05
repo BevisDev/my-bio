@@ -5,8 +5,8 @@ import { UL_SOCIAL_DASHBOARD } from "../../constant/Const";
 
 const DashBoard = () => {
   return (
-    <section id="dashboard">
-      <div className="dashboard-container">
+    <section id="dashboard" className="flex-items-center h-[100vh]">
+      <div className="dashboard-container max-w-[800px] mx-auto bg-gradient-to-r from-[#f2f1f1] to-[#e5e8f5] p-[30px] text-[1rem] rounded-xl">
         <HeaderDashBoard />
         <SocialDashBoard eleDOM={UL_SOCIAL_DASHBOARD} />
         <ProjectDashBoard />

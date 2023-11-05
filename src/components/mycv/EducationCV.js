@@ -4,12 +4,17 @@ import { CV_EDUCATION_ID } from "../../constant/Const";
 
 const EducationCV = () => {
   return (
-    <section id={CV_EDUCATION_ID} className="py-[90px]">
+    <section id={CV_EDUCATION_ID} className="pt-[90px]">
       <div className="cv-main-container">
         <div className="cv-main-section-container">
-          <div className="text-[12px] text-white font-light border-[1px] border-solid border-[#565656] rounded-[30px] px-[20px] py-[5px] mb-[53px] inline-flex items-center">
-            <i className="las la-graduation-cap text-[14px] mr-[10px] mb-[1px]"></i>
-            EDUCATION
+          <div className="education-header">
+            <div className="text-[12px] text-white font-light border-[1px] border-solid border-[#565656] rounded-[30px] px-[20px] py-[5px] mb-[53px] inline-flex items-center">
+              <i className="las la-graduation-cap text-[14px] mr-[10px] mb-[1px]"></i>
+              EDUCATION
+            </div>
+            <div className="text-[48px] leading-[60px] text-white font-light mb-9">
+              My <span className="text-primary">Education</span>
+            </div>
           </div>
           <div>
             <div className="flex justify-between">
