@@ -12,7 +12,7 @@ import { getLinkRefID } from "../../utils/CommonsUtils";
 const MenuScrollCV = () => {
   return (
     <section className="menu-scroll">
-      <ul className="fixed w-[55px] flex-col-center gap-5 right-[68px] top-[50%] translate-y-[-50%] text-center p-6 z-20 border-[1px] border-solid border-[#575757] rounded-[30px]">
+      <ul className="fixed w-[55px] flex-col-center gap-5 right-[68px] top-[50%] translate-y-[-50%] text-center p-6 z-20 border-solid-1px border-[#575757] rounded-[30px]">
         <li>
           <a href={getLinkRefID(CV_HOME_ID)} className="menu-icon-link">
             <span className="menu-icon-title">Home</span>

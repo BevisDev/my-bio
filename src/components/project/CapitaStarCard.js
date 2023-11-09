@@ -3,12 +3,7 @@ import { CAPITASTAR_PATH } from "../../constant/PathConst";
 
 const CapitaStarCard = () => {
   return (
-    <section
-      className="capitaStar-card pl-[74px] pb-[60px] relative 
-      before:contents-[''] before:bg-[#656565] before:w-[12px] before:h-[12px] before:absolute 
-      before:left-[-5px] before:top-[7px] before:rounded-[50%] before:transition-duration-300
-      after:contents-[''] after:bg-[#333333] after:absolute after:left-0 after:top-[10px] after:w-[1px] after:h-full after:z-[-1]"
-    >
+    <section className="capitaStar-card pl-[74px] pb-[68px] relative">
       <div className="joined-date mb-7">August 2022 - Present</div>
       <div className="text-[24px] font-light mb-[12px] text-white">
         FPT Software
@@ -30,7 +25,7 @@ const CapitaStarCard = () => {
           <span>Size: 37 member</span>
         </div>
       </div>
-      <p className="text-[13px] mb-[18px]">
+      <p className="text-[13px] mb-[18px] text-[#999999]">
         <i>
           This is a loyalty application which is made by my team. Now our team
           is taking responsibility maintenance for this product. Besides,
@@ -41,7 +36,7 @@ const CapitaStarCard = () => {
       <div className="text-[20px] text-white font-light mb-[5px]">
         Full-stack Developer
       </div>
-      <ul className="list-disc pl-[16px] text-[16px]">
+      <ul className="list-disc pl-[16px] text-[16px] text-[#999999]">
         <li>Develop application both server side and client side.</li>
         <li>
           Daily, Grooming, call with customers, call tranfer, weekly, retro

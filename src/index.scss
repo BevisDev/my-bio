@@ -18,6 +18,31 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
     background-image: url($dashboard-bg);
   }
 
+  .switch {
+    transition: background-color 0.25s linear;
+  }
+
+  .switch:after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+    top: 5px;
+    left: 5px;
+    transition: background-color 0.25s linear, transform 0.25s linear;
+  }
+
+  .switch-input:checked + .switch {
+    background-color: #e4e3e9;
+  }
+
+  .switch-input:checked + .switch:after {
+    transform: translateX(25px);
+    background-color: white;
+  }
+
   /* 02: ========================================== MY CV ==========================================*/
 
   .cv-main-container {
@@ -48,6 +73,52 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
     transform: rotate(54deg) skew(-8deg, -39deg);
     z-index: -1;
     @apply absolute top-[50%] right-[-3px] w-[10px] h-[10px] bg-[#404042] mt-[-5px];
+  }
+
+  .capitaStar-card::before {
+    content: "";
+    background-color: #656565;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: -5px;
+    top: 7px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+
+  .capitaStar-card::after {
+    content: "";
+    background-color: #333333;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    z-index: -1;
+  }
+
+  .bachelor::before {
+    content: "";
+    background-color: #656565;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: -5px;
+    top: 7px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+
+  .bachelor::after {
+    content: "";
+    background-color: #333333;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    z-index: -1;
   }
 
   /* 03: ========================================== MY MOVIE ==========================================*/
@@ -81,6 +152,10 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
 }
 
 @layer utilities {
+  .border-solid-1px {
+    border: 1px solid;
+  }
+
   .flex-center {
     @apply flex justify-center items-center;
   }
