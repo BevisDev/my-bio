@@ -18,6 +18,16 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
     background-image: url($dashboard-bg);
   }
 
+  .dashboard-intro-sub-desc::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 13px;
+    border-left: 2.5px solid #b2b2b2;
+    z-index: 1;
+    transition: 0.3s;
+  }
+
   .switch {
     transition: background-color 0.25s linear;
   }

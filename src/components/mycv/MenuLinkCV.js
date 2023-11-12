@@ -8,13 +8,10 @@ import {
   CV_CERTIFICATES_ID,
   CV_END_ID,
 } from "../../constant/Const";
+import { handleLinkRefId } from "../utils/CommonUtils";
 
 const MenuLinkCV = () => {
   const [activeItem, setActiveItem] = useState(CV_HOME_ID);
-
-  const handleLinkRefId = (itemId) => {
-    return `#${itemId}`;
-  };
 
   const handleActiveItemClick = (itemId) => {
     setActiveItem(itemId);

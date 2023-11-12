@@ -9,16 +9,12 @@ const HeaderDashBoard = () => {
         ></label>
       </div>
       <div className="flex-items-center">
-        <div className="dashboard-intro py-[19px]">
+        <div className="`dashboard-intro py-[19px]">
           <span className="block text-[36px] text-center font-light mb-[20px]">
             Hi, I'm{" "}
             <b className="font-bold text-[#676767]">Trương Thanh Bình</b>
           </span>
-          <div
-            className="flex gap-3 px-[2rem]
-          before:contents-[''] before:border-l-[3px] before:border-l-[#b2b2b2] 
-          before:border-l-solid"
-          >
+          <div className="dashboard-intro-sub-desc relative px-[2rem]">
             <i>
               "I am a software developer who is always ready to learn and
               explore newer tech stacks."

@@ -36,7 +36,7 @@ const CapitaStarCard = () => {
       <div className="text-[20px] text-white font-light mb-[5px]">
         Full-stack Developer
       </div>
-      <ul className="list-disc pl-[16px] text-[16px] text-[#999999]">
+      <ul className="text-[#999999]">
         <li>Develop application both server side and client side.</li>
         <li>
           Daily, Grooming, call with customers, call tranfer, weekly, retro

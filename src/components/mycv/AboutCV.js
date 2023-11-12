@@ -9,42 +9,28 @@ const AboutCV = () => {
             <i className="las la-user text-[14px] mr-[10px] mb-[1px]"></i>
             ABOUT
           </div>
-          <p className="mb-2">
-            - I am an experienced a Full-stack Developer with over 2 years of
-            experience in the Web Developing field. I am very quick learner in
-            computer related work and can get the hang of something with just a
-            few days of practice. I believe that the real hands-on experience,
-            the fast learning capability and my adaptability can lead to
-            success.
-          </p>
-          <hr className="mb-2" />
-          <span className="border-solid-1px bg-yellow-300 p-[5px] rounded-md">
-            Summary:
-          </span>
-          <ul className="list-disc mt-2 pl-4">
-            <li className="mb-1">2+ years of experience in Developer</li>
-            <li className="mb-1">
-              English Intermediate level, can communicate fluently
-            </li>
-            <li className="mb-1">Strong experience in Web Application</li>
-            <li className="mb-1">
+          <div className="text-[48px] leading-[60px] text-white font-light mb-[33px]">
+            Every day, in every way, <br /> I'm getting{" "}
+            <span className="text-primary">better and better</span>
+          </div>
+          <ul className="max-w-[600px] leading-[30px]">
+            <li>I have 2+ years of experience in Developer</li>
+            <li>Strong experience in Web Application</li>
+            <li>English Intermediate level, can communicate fluently</li>
+            <li>
               Strong experience in Sofware Development Life Cycle and Agile,
               Scrum.
             </li>
-            <li className="mb-1">
-              Experience in team management, training new joiner
-            </li>
-            <li className="mb-1">
+            <li>Experience in team management, training new joiner</li>
+            <li>
               Experience in fields: Purchase with VISA, MASTERCARD, AMEX, DBS.
             </li>
-            <li className="mb-1">
-              Back-End: experience in Java, JavaScript, SQL Server...etc
-            </li>
-            <li className="mb-1">
+            <li>Back-End: experience in Java, SQL Server, a bit C#, ...etc</li>
+            <li>
               Front-End: experience in JavaScript on ReactJs, React Admin,
               Material UI, Bootstrap, Tailwind...etc
             </li>
-            <li className="mb-1">Moreover, I'm a cat lover guy (｡◕‿‿◕｡)</li>
+            <li>Moreover, I'm a cat lover guy (｡◕‿‿◕｡)</li>
           </ul>
         </div>
       </div>
