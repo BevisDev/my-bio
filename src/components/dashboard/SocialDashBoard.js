@@ -1,3 +1,4 @@
+import { UL_SOCIAL_CV } from "../../constant/Const";
 import {
   FACEBOOK_PATH,
   GITHUB_PATH,
@@ -5,14 +6,17 @@ import {
   LINKEDIN_PATH,
   MAIL_TO_ME,
 } from "../../constant/PathConst";
-import { handleStyle } from "../../utils/CommonsUtils";
 
 const SocialDashBoard = (props) => {
-  const { eleDOM } = props;
+  const { domType } = props;
 
   return (
     <section className="dashboard-social mb-3">
-      <ul className={handleStyle(eleDOM)}>
+      <ul
+        className={`flex-center mt-1 mb-3 ${
+          domType === UL_SOCIAL_CV ? "gap-3" : "gap-14"
+        } `}
+      >
         <li className="text-center">
           <a
             href={FACEBOOK_PATH}

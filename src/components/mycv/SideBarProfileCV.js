@@ -18,9 +18,9 @@ const SideBarProfileCV = () => {
         <div className="mb-1">dev.binhtt@gmail.com</div>
         <div>District 7, Ho Chi Minh City, VietNam.</div>
       </div>
-      <SocialDashBoard eleDOM={UL_SOCIAL_CV} />
+      <SocialDashBoard domType={UL_SOCIAL_CV} />
       <div className="flex-center text-white bg-primary border-solid-1px border-[#565656] rounded-[30px] mt-4 p-2 gap-2">
-        <i class="las la-phone-volume text-[25px]"></i>
+        <i className="las la-phone-volume text-[25px]"></i>
         <span className="">+84 901 850 057</span>
       </div>
     </section>

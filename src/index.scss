@@ -53,12 +53,16 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
     @apply w-full max-w-[770px] ml-auto relative z-[3];
   }
 
+  .menu-link .active {
+    @apply text-primary;
+  }
+
   .menu-icon-link {
     transition: transform 0.3s;
     @apply flex-center relative w-[55px];
   }
 
-  .menu-scroll li a:hover span,
+  .menu-link li a:hover span,
   .menu-icon-link:hover span {
     opacity: 1;
     visibility: visible;

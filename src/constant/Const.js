@@ -13,7 +13,6 @@ export const UPCOMMING = "upcoming";
 export const W500 = "w500";
 export const ORIGINAL = "original";
 
-export const SYMBOL_ID = "#";
 // ==================== LINK BY ID ON MY CV PAGE
 export const CV_HOME_ID = "homeCV";
 export const CV_ABOUT_ID = "aboutCV";
