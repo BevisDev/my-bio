@@ -1,6 +1,6 @@
 const HomeCV = () => {
   return (
-    <section className="px-[68px] py-[16px]">
+    <section className="pb-[72px]">
       <div className="cv-main-container">
         <div className="cv-main-section-container">
           <section className="">

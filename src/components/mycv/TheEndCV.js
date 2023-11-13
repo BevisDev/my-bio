@@ -3,7 +3,7 @@ import { CV_END_ID } from "../../constant/Const";
 
 const TheEndCV = () => {
   return (
-    <section id={CV_END_ID} className="pt-[90px]">
+    <section id={CV_END_ID} className="py-[48px]">
       <div className="cv-main-container">
         <div className="cv-main-section-container">
           <div className="end-header mb-9">

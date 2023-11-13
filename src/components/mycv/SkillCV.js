@@ -2,7 +2,7 @@ import { CV_SKILLS_ID } from "../../constant/Const";
 
 const SkillCV = () => {
   return (
-    <section id={CV_SKILLS_ID} className="pt-[90px]">
+    <section id={CV_SKILLS_ID} className="py-[68px]">
       <div className="cv-main-container">
         <div className="cv-main-section-container">
           <div className="skills-header">

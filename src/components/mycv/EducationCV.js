@@ -3,7 +3,7 @@ import { HUTECH_PATH } from "../../constant/PathConst";
 
 const EducationCV = () => {
   return (
-    <section id={CV_EDUCATION_ID} className="pt-[90px]">
+    <section id={CV_EDUCATION_ID} className="py-[68px]">
       <div className="cv-main-container">
         <div className="cv-main-section-container">
           <div className="education-header">

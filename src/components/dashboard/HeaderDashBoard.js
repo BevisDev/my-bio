@@ -1,13 +1,9 @@
+import ToggleMode from "./ToggleMode";
+
 const HeaderDashBoard = () => {
   return (
     <header>
-      <div>
-        <input type="checkbox" id="switch" className="switch-input hidden" />
-        <label
-          for="switch"
-          className="switch relative cursor-pointer w-[50px] h-[25px] block my-auto overflow-hidden shadow-md bg-[#434343] rounded-[100rem]"
-        ></label>
-      </div>
+      <ToggleMode />
       <div className="flex-items-center">
         <div className="`dashboard-intro py-[19px]">
           <span className="block text-[36px] text-center font-light mb-[20px]">

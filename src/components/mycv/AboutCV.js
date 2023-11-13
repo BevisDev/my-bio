@@ -2,7 +2,7 @@ import { CV_ABOUT_ID } from "../../constant/Const";
 
 const AboutCV = () => {
   return (
-    <section id={CV_ABOUT_ID} className="py-[90px]">
+    <section id={CV_ABOUT_ID} className="pt-[68px] pb-[75px]">
       <div className="cv-main-container">
         <div className="cv-main-section-container">
           <div className="text-[12px] text-white font-light border-solid-1px border-[#565656] rounded-[30px] px-[20px] py-[5px] mb-[53px] inline-flex items-center">
@@ -14,16 +14,17 @@ const AboutCV = () => {
             <span className="text-primary">better and better</span>
           </div>
           <ul className="max-w-[600px] leading-[30px]">
-            <li>I have 2+ years of experience in Developer</li>
+            <li>I have over 2 years of experience in Developer</li>
             <li>Strong experience in Web Application</li>
-            <li>English Intermediate level, can communicate fluently</li>
             <li>
               Strong experience in Sofware Development Life Cycle and Agile,
               Scrum.
             </li>
+            <li>English Intermediate level, can communicate fluently</li>
             <li>Experience in team management, training new joiner</li>
             <li>
-              Experience in fields: Purchase with VISA, MASTERCARD, AMEX, DBS.
+              Experience in fields: Purchase with VISA, MASTERCARD, AMEX,
+              Conversion DBS Point.
             </li>
             <li>Back-End: experience in Java, SQL Server, a bit C#, ...etc</li>
             <li>

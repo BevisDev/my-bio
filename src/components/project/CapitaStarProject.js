@@ -1,14 +1,14 @@
 import STAR from "../../assets/icon/start-94.png";
 import { CAPITASTAR_PATH } from "../../constant/PathConst";
 
-const CapitaStarCard = () => {
+const CapitaStarProject = () => {
   return (
-    <section className="capitaStar-card pl-[74px] pb-[68px] relative">
+    <section className="project pl-[74px] pb-[68px] relative">
       <div className="joined-date mb-7">August 2022 - Present</div>
       <div className="text-[24px] font-light mb-[12px] text-white">
         FPT Software
       </div>
-      <div className="mb-[5px] flex items-center justify-between">
+      <div className="mb-[5px]">
         <div className="flex-items-center gap-2">
           <div className="star-icons flex-items-center">
             <img className="image" src={STAR} alt="STAR" />
@@ -21,40 +21,37 @@ const CapitaStarCard = () => {
             </a>
           </span>
         </div>
-        <div className="text-[14px]">
-          <span>Size: 37 member</span>
-        </div>
       </div>
       <p className="text-[13px] mb-[18px] text-[#999999]">
         <i>
-          This is a loyalty application which is made by my team. Now our team
-          is taking responsibility maintenance for this product. Besides,
-          analyze data is used in application for transfering these data into
-          web report for client and exposing api for partners integrate.
+          This is a loyalty application. The data is used in application is
+          collected into web report for client. Besides, our team manages
+          merchants, partner and exposes api for partners integrate.
         </i>
       </p>
       <div className="text-[20px] text-white font-light mb-[5px]">
         Full-stack Developer
       </div>
-      <ul className="text-[#999999]">
+      <ul className="text-[#999999] leading-[30px]">
         <li>Develop application both server side and client side.</li>
         <li>
-          Daily, Grooming, call with customers, call tranfer, weekly, retro
+          Daily, grooming, call with customers, call tranfer, weekly, retro.
         </li>
         <li>
           Get ticket, analyzing this ticket and estimate time or features can be
           impacted.
         </li>
         <li>
-          Base on estimation which got approved. We implement to Dev
-          environment.
+          contribute to develop flow purchase AMEX, VISA, MASTERCARD, Conversion
+          DBS Point, Linked Partner, Campaign.. etc
         </li>
         <li>
-          After passed on Dev site. We must complete deploy it to Prod site.
+          After passed on Dev site. We process UAT site for customer and
+          complete deploy it to PROD site.
         </li>
       </ul>
     </section>
   );
 };
 
-export default CapitaStarCard;
+export default CapitaStarProject;

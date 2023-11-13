@@ -1,9 +1,10 @@
 import { CV_EXPERIENCE_ID } from "../../constant/Const";
-import CapitaStarCard from "../project/CapitaStarCard";
+import CapitaStarProject from "../project/CapitaStarProject";
+import FresherProject from "../project/FresherProject";
 
 const ExperienceCV = () => {
   return (
-    <section id={CV_EXPERIENCE_ID} className="pt-[90px] pb-[40px]">
+    <section id={CV_EXPERIENCE_ID} className="py-[68px]">
       <div className="cv-main-container">
         <div className="cv-main-section-container">
           <div className="experience-header">
@@ -16,8 +17,8 @@ const ExperienceCV = () => {
             </div>
           </div>
           <div className="cv-project">
-            <CapitaStarCard />
-            <CapitaStarCard />
+            <CapitaStarProject />
+            <FresherProject />
           </div>
         </div>
       </div>

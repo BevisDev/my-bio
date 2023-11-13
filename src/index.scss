@@ -89,7 +89,7 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
     @apply absolute top-[50%] right-[-3px] w-[10px] h-[10px] bg-[#404042] mt-[-5px];
   }
 
-  .capitaStar-card::before {
+  .project::before {
     content: "";
     background-color: #656565;
     width: 12px;
@@ -101,7 +101,7 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
     transition: 0.3s;
   }
 
-  .capitaStar-card::after {
+  .project::after {
     content: "";
     background-color: #333333;
     width: 1px;
