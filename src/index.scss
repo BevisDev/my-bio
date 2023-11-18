@@ -166,6 +166,15 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
 }
 
 @layer utilities {
+  /* 04: ========================================== Utils ==========================================*/
+  .image {
+    @apply w-full h-full object-cover;
+  }
+
+  .image-circle {
+    @apply image rounded-full;
+  }
+
   .border-solid-1px {
     border: 1px solid;
   }
@@ -180,14 +189,6 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
 
   .flex-items-center {
     @apply flex items-center;
-  }
-
-  .flex-col-items-center {
-    @apply flex-items-center flex-col;
-  }
-
-  .image {
-    @apply w-full h-full object-cover;
   }
 
   .image-circle {
