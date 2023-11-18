@@ -2,7 +2,7 @@ import { CV_SKILLS_ID } from "../../constant/Const";
 
 const SkillCV = () => {
   return (
-    <section id={CV_SKILLS_ID} className="py-[68px]">
+    <section id={CV_SKILLS_ID} className="pt-[68px] pb-[110px]">
       <div className="cv-main-container">
         <div className="cv-main-section-container">
           <div className="skills-header">
@@ -14,23 +14,19 @@ const SkillCV = () => {
               My <span className="text-primary">Advantages</span>
             </div>
           </div>
-          <div>
-            <h3>Backend Skills: </h3>
-            <div className="text-[50px] gap-4 flex-items-center">
-              <i className="devicon-java-plain-wordmark colored"></i>
-              <i className="devicon-csharp-plain-wordmark colored"></i>
-              <i className="devicon-microsoftsqlserver-plain-wordmark colored"></i>
-              <i className="devicon-mysql-plain-wordmark colored"></i>
-              <i className="devicon-redis-plain-wordmark colored"></i>
-            </div>
-          </div>
-          <div className="text-[50px] flex-items-center gap-4 mt-2">
+          <div className="pt-5 text-[65px] grid grid-cols-6 gap-20">
+            <i className="devicon-java-plain colored"></i>
+            <i className="devicon-spring-plain colored"></i>
+            <i className="devicon-microsoftsqlserver-plain-wordmark colored"></i>
+            <i className="devicon-mysql-plain-wordmark colored"></i>
+            <i className="devicon-redis-plain-wordmark colored"></i>
+            <i className="devicon-git-plain colored"></i>
             <i className="devicon-react-original colored"></i>
+            <i className="devicon-html5-plain colored"></i>
+            <i className="devicon-css3-plain colored"></i>
             <i className="devicon-javascript-plain colored"></i>
-            <i className="devicon-tailwindcss-original-wordmark colored"></i>
-            <i className="devicon-unity-original-wordmark"></i>
+            <i className="devicon-tailwindcss-plain colored"></i>
             <i className="devicon-bootstrap-plain-wordmark colored"></i>
-            <i className="devicon-git-plain-wordmark colored"></i>
           </div>
         </div>
       </div>

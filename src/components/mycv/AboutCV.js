@@ -14,7 +14,7 @@ const AboutCV = () => {
             <span className="text-primary">better and better</span>
           </div>
           <ul className="max-w-[600px] leading-[30px]">
-            <li>I have over 2 years of experience in Developer</li>
+            <li>I have 2 years of experience in Developer</li>
             <li>Strong experience in Web Application</li>
             <li>
               Strong experience in Sofware Development Life Cycle and Agile,
@@ -23,13 +23,13 @@ const AboutCV = () => {
             <li>English Intermediate level, can communicate fluently</li>
             <li>Experience in team management, training new joiner</li>
             <li>
-              Experience in fields: Purchase with VISA, MASTERCARD, AMEX,
-              Conversion DBS Point.
+              Contribute to develop feature purchase with VISA, MASTERCARD,
+              AMEX, conversion DBS Point, Campaign...
             </li>
-            <li>Back-End: experience in Java, SQL Server, a bit C#, ...etc</li>
+            <li>Back-End: experience in Java, SQL Server... etc</li>
             <li>
               Front-End: experience in JavaScript on ReactJs, React Admin,
-              Material UI, Bootstrap, Tailwind...etc
+              Material UI, Bootstrap, Tailwind... etc
             </li>
             <li>Moreover, I'm a cat lover guy (｡◕‿‿◕｡)</li>
           </ul>

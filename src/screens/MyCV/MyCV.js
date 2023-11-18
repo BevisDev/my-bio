@@ -7,7 +7,7 @@ const MyCV = () => {
   return (
     <section
       id={CV_HOME_ID}
-      className="py-[68px] text-[#999999] leading-[27.2px] bg-[#1f1f1f]"
+      className="py-[68px] text-[#999999] leading-[27.2px] bg-[#111729]"
     >
       <SideBarProfileCV />
       <MenuLinkCV />

@@ -42,8 +42,8 @@ const CapitaStarProject = () => {
           impacted.
         </li>
         <li>
-          contribute to develop flow purchase AMEX, VISA, MASTERCARD, Conversion
-          DBS Point, Linked Partner, Campaign.. etc
+          Contribute to develop feature purchase AMEX, VISA, MASTERCARD,
+          conversion DBS Point, linked Partner, Campaign.. etc
         </li>
         <li>
           After passed on Dev site. We process UAT site for customer and

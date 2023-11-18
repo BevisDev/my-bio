@@ -1,6 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import CertificateCardCV from "./CertificateCardCV";
+import Psm1Certificate from "../certificates/Psm1Certificate";
 import { CV_CERTIFICATES_ID } from "../../constant/Const";
+import ScrumDEKCertificate from "./../certificates/ScrumDEKCertificate";
+import B1HutechCertificate from "./../certificates/B1HutechCertificate";
+import NhatNgheCertificate from "./../certificates/NhatNgheCertificate";
 
 const CertificateListCV = () => {
   return (
@@ -18,22 +21,16 @@ const CertificateListCV = () => {
               slidesPerView={"auto"}
             >
               <SwiperSlide>
-                <CertificateCardCV />
+                <Psm1Certificate />
               </SwiperSlide>
               <SwiperSlide>
-                <CertificateCardCV />
+                <ScrumDEKCertificate />
               </SwiperSlide>
               <SwiperSlide>
-                <CertificateCardCV />
+                <NhatNgheCertificate />
               </SwiperSlide>
               <SwiperSlide>
-                <CertificateCardCV />
-              </SwiperSlide>
-              <SwiperSlide>
-                <CertificateCardCV />
-              </SwiperSlide>
-              <SwiperSlide>
-                <CertificateCardCV />
+                <B1HutechCertificate />
               </SwiperSlide>
             </Swiper>
           </div>

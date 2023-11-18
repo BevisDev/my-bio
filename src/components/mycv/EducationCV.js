@@ -17,9 +17,8 @@ const EducationCV = () => {
           </div>
           <div>
             <div className="border-solid-1px mt-[36px] border-[#565656] rounded-[20px] relative py-[41px] px-[48px] mb-[10px]">
-              <div className="joined-date mb-3">2018 - 2022</div>
               <div className="text-[24px] font-light mb-[12px] text-white">
-                Bachelor Degree of Information Technology
+                Specialized in Information Technology
               </div>
               <p className="text-[13px] text-[#ffff00]">
                 <a href={HUTECH_PATH} target="blank">
@@ -28,19 +27,19 @@ const EducationCV = () => {
               </p>
             </div>
             <div className="border-solid-1px mt-[36px] border-[#565656] rounded-[20px] relative py-[41px] px-[48px] mb-[10px]">
-              <span className="text-[24px] font-light mb-[8px] text-white">
-                Website Design
+              <span className="text-[24px] font-light mb-[12px] text-white">
+                2 Website E-commerce
               </span>
-              <p className="text-[14px] text-[#999999] mb-[30px]">
-                I created digital products with unique ideas use Figma & Framer
+              <p className="text-[14px] text-[#999999] mb-[25px]">
+                I develop backend webiste using C#, NodeJs.
               </p>
             </div>
             <div className="border-solid-1px mt-[36px] border-[#565656] rounded-[20px] relative py-[41px] px-[48px] mb-[10px]">
-              <span className="text-[24px] font-light mb-[8px] text-white">
-                Website Design
+              <span className="text-[24px] font-light mb-[2px] text-white">
+                Game Zombie Hunter Unity 3D
               </span>
-              <p className="text-[14px] text-[#999999] mb-[30px]">
-                I created digital products with unique ideas use Figma & Framer
+              <p className="text-[14px] text-[#999999] mb-[25px]">
+                I develop using C#
               </p>
             </div>
           </div>
