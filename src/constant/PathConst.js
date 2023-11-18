@@ -6,7 +6,7 @@ export const MOVIE_LIST_PATH =
   "https://api.themoviedb.org/3/movie/{type}?api_key=";
 
 // ==================== API INTERNAL PATH
-export const DASH_BOARD_API = "/my-bio.github.io";
+export const DASH_BOARD_API = "/my-bio";
 export const MY_CV_API = DASH_BOARD_API + "/my-cv";
 export const MY_TODO_API = DASH_BOARD_API + "/my-todo";
 export const MY_MOVIE_API = DASH_BOARD_API + "/my-movie";
