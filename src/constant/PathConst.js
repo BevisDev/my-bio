@@ -6,10 +6,10 @@ export const MOVIE_LIST_PATH =
   "https://api.themoviedb.org/3/movie/{type}?api_key=";
 
 // ==================== API INTERNAL PATH
-export const DASH_BOARD_API = "/my-bio";
-export const MY_CV_API = DASH_BOARD_API + "/my-cv";
-export const MY_TODO_API = DASH_BOARD_API + "/my-todo";
-export const MY_MOVIE_API = DASH_BOARD_API + "/my-movie";
+export const DASH_BOARD_PATH = "/my-bio";
+export const MY_CV_PATH = "/my-cv";
+export const MY_TODO_PATH = "/my-todo";
+export const MY_MOVIE_PATH = "/my-movie";
 
 // =================== LINK PROFILE SHARE
 export const MAIL_TO_ME = "mailto:dev.binhtt@gmail.com";
