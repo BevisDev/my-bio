@@ -10,7 +10,7 @@ const CapitaStarProject = () => {
       </div>
       <div className="mb-[5px]">
         <div className="flex-items-center gap-2">
-          <div className="star-icons flex-items-center">
+          <div className="h-[16px] flex-items-center">
             <img className="image" src={STAR} alt="STAR" />
             <img className="image" src={STAR} alt="STAR" />
             <img className="image" src={STAR} alt="STAR" />

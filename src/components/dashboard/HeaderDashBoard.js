@@ -1,4 +1,5 @@
 import ToggleMode from "./ToggleMode";
+import ME_IMAGE from "../../assets/me.png";
 
 const HeaderDashBoard = () => {
   return (
@@ -20,7 +21,7 @@ const HeaderDashBoard = () => {
         <div className="dashboard-avatar min-w-[165px] hover:scale-125">
           <div className="border-[5px] border-[#eaeaec] w-[10rem] h-[10rem] shadow-md rounded-full">
             <img
-              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80"
+              src={ME_IMAGE}
               className="image-circle transition-transform-100"
               alt="NOT_FOUND_AVATAR"
             />

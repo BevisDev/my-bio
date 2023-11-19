@@ -1,4 +1,8 @@
-import { MY_MOVIE_API, MY_CV_API, MY_TODO_API } from "../../constant/PathConst";
+import {
+  MY_MOVIE_PATH,
+  MY_CV_PATH,
+  MY_TODO_PATH,
+} from "../../constant/PathConst";
 
 const ProjectDashBoard = () => {
   return (
@@ -6,19 +10,19 @@ const ProjectDashBoard = () => {
       <h3 className="mb-1 font-medium">My Projects</h3>
       <a
         className="mb-2 rounded-lg shadow-md h-[3rem] flex-center"
-        href={MY_CV_API}
+        href={MY_CV_PATH}
       >
         My CV
       </a>
       <a
         className="mb-2 rounded-lg shadow-md h-[3rem] flex-center"
-        href={MY_TODO_API}
+        href={MY_TODO_PATH}
       >
         My To Do
       </a>
       <a
         className="mb-2 rounded-lg shadow-md h-[3rem] flex-center"
-        href={MY_MOVIE_API}
+        href={MY_MOVIE_PATH}
       >
         My Movie
       </a>
