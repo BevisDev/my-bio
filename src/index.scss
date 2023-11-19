@@ -7,7 +7,8 @@ $dashboard-bg: "assets/bg-dashboard.png";
 
 @layer base {
   body {
-    @apply font-sans text-[1rem];
+    font-size: 16px;
+    @apply font-sans;
   }
 }
 
@@ -56,10 +57,15 @@ $dashboard-bg: "assets/bg-dashboard.png";
   /* 02: ========================================== MY CV ==========================================*/
 
   .cv-main-container {
-    @apply max-w-[1130px] px-[15px] m-auto;
+    max-width: 1130px;
+    @apply px-[15px] m-auto;
 
     .cv-main-section-container {
-      @apply w-full max-w-[770px] ml-auto relative z-[3];
+      max-width: 770px;
+      width: 100%;
+      position: relative;
+      z-index: 3;
+      @apply ml-auto;
     }
 
     .project::before {
@@ -109,26 +115,46 @@ $dashboard-bg: "assets/bg-dashboard.png";
     }
   }
 
-  .menu-icon-link {
-    transition: transform 0.3s;
-    @apply flex-center relative w-[55px];
-  }
+  .menu-link {
+    .menu-icon-link {
+      transition: transform 0.3s;
+      position: relative;
+      width: 55px;
+      @apply flex-center;
 
-  .menu-link li a:hover span,
-  .menu-icon-link:hover span {
-    opacity: 1;
-    visibility: visible;
-  }
+      &:hover {
+        span {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
 
-  .menu-icon-title {
-    @apply absolute right-[100%] block rounded-[5px] pt-[3px] px-[8px] text-[12px] bg-[#404042] text-[#fff] visible opacity-0;
-  }
+    .menu-icon-title {
+      position: absolute;
+      right: 100%;
+      display: block;
+      border-radius: 5px;
+      padding: 3px 8px 0;
+      font-size: 12px;
+      background-color: #404042;
+      color: #fff;
+      visibility: visible;
+      opacity: 0;
 
-  .menu-icon-title::before {
-    content: "";
-    transform: rotate(54deg) skew(-8deg, -39deg);
-    z-index: -1;
-    @apply absolute top-[50%] right-[-3px] w-[10px] h-[10px] bg-[#404042] mt-[-5px];
+      &:before {
+        content: "";
+        transform: rotate(54deg) skew(-8deg, -39deg);
+        z-index: -1;
+        position: absolute;
+        top: 50%;
+        right: -3px;
+        width: 10px;
+        height: 10px;
+        background-color: #404042;
+        margin-top: -5px;
+      }
+    }
   }
 
   /* 03: ========================================== MY MOVIE ==========================================*/
@@ -152,24 +178,20 @@ $dashboard-bg: "assets/bg-dashboard.png";
     height: auto;
   }
 
-  .star-icons {
-    @apply h-[16px];
-  }
-
+  /* 04: ========================================== My To Do ==========================================*/
   #my-todo {
     @apply container-1280;
   }
 }
 
 @layer utilities {
-  /* 04: ========================================== Utils ==========================================*/
+  /*  ========================================== Utils ==========================================*/
   .image {
     @apply w-full h-full object-cover;
   }
 
   .image-circle {
-    @extend .image;
-    @apply rounded-full;
+    @apply image rounded-full;
   }
 
   .border-solid-1px {
@@ -185,7 +207,6 @@ $dashboard-bg: "assets/bg-dashboard.png";
   }
 
   .flex-col-center {
-    @extend .flex-center;
-    flex-direction: column;
+    @apply flex-center flex-col;
   }
 }
