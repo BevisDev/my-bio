@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-bio/static/css/main.675fe650.css",
+    "main.js": "/my-bio/static/js/main.0f9590bb.js",
+    "static/js/787.891ead61.chunk.js": "/my-bio/static/js/787.891ead61.chunk.js",
+    "static/media/bg-dashboard.png": "/my-bio/static/media/bg-dashboard.30a3a4623c81e5592587.png",
+    "static/media/PSM1.jpg": "/my-bio/static/media/PSM1.4447999ef5a2b59966b8.jpg",
+    "static/media/me.png": "/my-bio/static/media/me.df6f49e359ff0c888dec.png",
+    "static/media/NhatNghe.jpg": "/my-bio/static/media/NhatNghe.6e6bab4b8f8e9f42c947.jpg",
+    "static/media/bongoCatCodes.gif": "/my-bio/static/media/bongoCatCodes.6aa21363b3274ff334d2.gif",
+    "static/media/B1Hutech.jpg": "/my-bio/static/media/B1Hutech.4a295f697f148335ba28.jpg",
+    "static/media/ScrumDEK.jpg": "/my-bio/static/media/ScrumDEK.dc11ee897946e3dadafe.jpg",
+    "static/media/start-94.png": "/my-bio/static/media/start-94.89f19ed7a53cd06d74a1.png",
+    "index.html": "/my-bio/index.html",
+    "main.675fe650.css.map": "/my-bio/static/css/main.675fe650.css.map",
+    "main.0f9590bb.js.map": "/my-bio/static/js/main.0f9590bb.js.map",
+    "787.891ead61.chunk.js.map": "/my-bio/static/js/787.891ead61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.675fe650.css",
+    "static/js/main.0f9590bb.js"
+  ]
+}
