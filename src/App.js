@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import "swiper/scss";
 import HomePage from "./screens/movie/HomePage";
 import { Route, Routes } from "react-router-dom";
-import MyCV from "./screens/mycv/MyCV";
+import CvPage from "./screens/mycv/CvPage";
 import DashBoard from "./screens/dashboard/DashBoard";
 import {
   DASH_BOARD_PATH,
@@ -10,15 +10,15 @@ import {
   MY_CV_PATH,
   MY_TODO_PATH,
 } from "./constant/PathConst";
-import MyToDo from "./screens/mytodo/MyToDo";
+import ToDoPage from "./screens/mytodo/ToDoPage";
 
 function App() {
   return (
     <Fragment>
       <Routes>
         <Route path={DASH_BOARD_PATH} element={<DashBoard />}></Route>
-        <Route path={MY_CV_PATH} element={<MyCV />}></Route>
-        <Route path={MY_TODO_PATH} element={<MyToDo />}></Route>
+        <Route path={MY_CV_PATH} element={<CvPage />}></Route>
+        <Route path={MY_TODO_PATH} element={<ToDoPage />}></Route>
         <Route path={MY_MOVIE_PATH} element={<HomePage />}></Route>
       </Routes>
     </Fragment>
