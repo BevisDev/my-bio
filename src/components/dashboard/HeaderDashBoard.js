@@ -3,12 +3,13 @@ import ME_IMAGE from "../../assets/me.png";
 
 const HeaderDashBoard = () => {
   return (
-    <header>
+    <section className="dashboard-header">
       <ToggleMode />
-      <div className="flex-items-center">
-        <div className="`dashboard-intro py-[19px]">
+      <div className="dashboard-profile flex-items-center">
+        <div className="dashboard-intro py-[19px]">
           <span className="block text-[36px] text-center font-light mb-[20px]">
             Hi, I'm{" "}
+            <div></div>
             <b className="font-bold text-[#676767]">Trương Thanh Bình</b>
           </span>
           <div className="dashboard-intro-sub-desc relative px-[2rem]">
@@ -28,7 +29,7 @@ const HeaderDashBoard = () => {
           </div>
         </div>
       </div>
-    </header>
+    </section>
   );
 };
 

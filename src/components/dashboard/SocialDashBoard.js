@@ -13,7 +13,7 @@ const SocialDashBoard = (props) => {
   return (
     <section className="dashboard-social mb-3">
       <ul
-        className={`flex-center mt-1 mb-3 ${
+        className={`dashboard-social-list flex-center mt-1 mb-3 ${
           domType === UL_SOCIAL_CV ? "gap-3" : "gap-14"
         } `}
       >
