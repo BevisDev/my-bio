@@ -24,7 +24,7 @@ const MenuLinkCV = () => {
           <a
             href={handleLinkRefId(CV_HOME_ID)}
             className={`menu-icon-link ${
-              activeItem === CV_HOME_ID ? "active" : ""
+              activeItem === CV_HOME_ID ? "text-primary" : ""
             }`}
             onClick={() => handleActiveItemClick(CV_HOME_ID)}
           >
@@ -36,7 +36,7 @@ const MenuLinkCV = () => {
           <a
             href={handleLinkRefId(CV_ABOUT_ID)}
             className={`menu-icon-link ${
-              activeItem === CV_ABOUT_ID ? "active" : ""
+              activeItem === CV_ABOUT_ID ? "text-primary" : ""
             }`}
             onClick={() => handleActiveItemClick(CV_ABOUT_ID)}
           >
@@ -48,7 +48,7 @@ const MenuLinkCV = () => {
           <a
             href={handleLinkRefId(CV_EXPERIENCE_ID)}
             className={`menu-icon-link ${
-              activeItem === CV_EXPERIENCE_ID ? "active" : ""
+              activeItem === CV_EXPERIENCE_ID ? "text-primary" : ""
             }`}
             onClick={() => handleActiveItemClick(CV_EXPERIENCE_ID)}
           >
@@ -60,7 +60,7 @@ const MenuLinkCV = () => {
           <a
             href={handleLinkRefId(CV_EDUCATION_ID)}
             className={`menu-icon-link ${
-              activeItem === CV_EDUCATION_ID ? "active" : ""
+              activeItem === CV_EDUCATION_ID ? "text-primary" : ""
             }`}
             onClick={() => handleActiveItemClick(CV_EDUCATION_ID)}
           >
@@ -72,7 +72,7 @@ const MenuLinkCV = () => {
           <a
             href={handleLinkRefId(CV_SKILLS_ID)}
             className={`menu-icon-link ${
-              activeItem === CV_SKILLS_ID ? "active" : ""
+              activeItem === CV_SKILLS_ID ? "text-primary" : ""
             }`}
             onClick={() => handleActiveItemClick(CV_SKILLS_ID)}
           >
@@ -84,7 +84,7 @@ const MenuLinkCV = () => {
           <a
             href={handleLinkRefId(CV_CERTIFICATES_ID)}
             className={`menu-icon-link ${
-              activeItem === CV_CERTIFICATES_ID ? "active" : ""
+              activeItem === CV_CERTIFICATES_ID ? "text-primary" : ""
             }`}
             onClick={() => handleActiveItemClick(CV_CERTIFICATES_ID)}
           >
@@ -96,7 +96,7 @@ const MenuLinkCV = () => {
           <a
             href={handleLinkRefId(CV_END_ID)}
             className={`menu-icon-link ${
-              activeItem === CV_END_ID ? "active" : ""
+              activeItem === CV_END_ID ? "text-primary" : ""
             }`}
             onClick={() => handleActiveItemClick(CV_END_ID)}
           >

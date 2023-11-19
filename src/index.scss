@@ -109,10 +109,6 @@ $dashboard-bg: "https://images.unsplash.com/photo-1674231262658-9a98bc841270?ixl
     }
   }
 
-  .menu-link .active {
-    @apply text-primary;
-  }
-
   .menu-icon-link {
     transition: transform 0.3s;
     @apply flex-center relative w-[55px];
