@@ -1,24 +1,18 @@
-import STAR from "../../assets/icon/start-94.png";
 import { CAPITASTAR_PATH } from "../../constant/PathConst";
 
 const CapitaStarProject = () => {
   return (
     <section className="project pl-[74px] pb-[68px] relative">
       <div className="joined-date mb-7">August 2022 - Present</div>
-      <div className="text-[24px] font-light mb-[12px] text-white">
-        FPT Software
+      <div className="text-[24px] font-light mb-[12px] text-[#40ced9]">
+        <a href={CAPITASTAR_PATH} target="blank">
+          CapitaStar
+        </a>
       </div>
       <div className="mb-[5px]">
         <div className="flex-items-center gap-2">
-          <div className="h-[16px] flex-items-center">
-            <img className="image" src={STAR} alt="STAR" />
-            <img className="image" src={STAR} alt="STAR" />
-            <img className="image" src={STAR} alt="STAR" />
-          </div>
-          <span className="text-[#40ced9] text-[20px] font-light">
-            <a href={CAPITASTAR_PATH} target="blank">
-              CapitaStar
-            </a>
+          <span className="text-white text-[15px] font-light">
+            Associated with FPT Software
           </span>
         </div>
       </div>
@@ -33,22 +27,23 @@ const CapitaStarProject = () => {
         Full-stack Developer
       </div>
       <ul className="text-[#999999] leading-[30px]">
-        <li>Develop application both server side and client side.</li>
         <li>
-          Daily, grooming, call with customers, call tranfer, weekly, retro.
+          Integrate a wide range of third-party services and components like
+          payment gateways, conversion point, linked partner.
         </li>
         <li>
-          Get ticket, analyzing this ticket and estimate time or features can be
-          impacted.
+          Daily meeting, join grooming, call with customer, call transfer,
+          weekly meeting, retro.
         </li>
         <li>
-          Contribute to develop feature purchase AMEX, VISA, MASTERCARD,
-          conversion DBS Point, linked Partner, Campaign.. etc
+          Create web-based CMSs to enable simplified content management,
+          resulting in quicker updates to site information and features.
         </li>
         <li>
-          After passed on Dev site. We process UAT site for customer and
-          complete deploy it to PROD site.
+          Monitor system health, debugged performance issues, and optimized
+          application using both server-side and client-side techniques.
         </li>
+        <li>Integrate with mobile team.</li>
       </ul>
     </section>
   );

@@ -28,10 +28,16 @@ const EducationCV = () => {
             </div>
             <div className="border-solid-1px mt-[36px] border-[#565656] rounded-[20px] relative py-[41px] px-[48px] mb-[10px]">
               <span className="text-[24px] font-light mb-[12px] text-white">
-                2 Website E-commerce
+                Static website introduce my bio
               </span>
               <p className="text-[14px] text-[#999999] mb-[25px]">
-                I develop backend webiste using C#, NodeJs.
+                I develop using React Js and deploy on Github:{" "}
+                <a
+                  href="https://bevisdev.github.io/my-bio/"
+                  className="text-blue-300"
+                >
+                  Link is here
+                </a>
               </p>
             </div>
             <div className="border-solid-1px mt-[36px] border-[#565656] rounded-[20px] relative py-[41px] px-[48px] mb-[10px]">
@@ -39,7 +45,7 @@ const EducationCV = () => {
                 Game Zombie Hunter Unity 3D
               </span>
               <p className="text-[14px] text-[#999999] mb-[25px]">
-                I develop using C#
+                I develop using C# (not yet deploy)
               </p>
             </div>
           </div>

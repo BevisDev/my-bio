@@ -1,5 +1,5 @@
 import ToggleMode from "./ToggleMode";
-import ME_IMAGE from "../../assets/me.png";
+import ME_IMAGE from "../../assets/me.jpg";
 
 const HeaderDashBoard = () => {
   return (
