@@ -182,6 +182,10 @@ $dashboard-bg: "assets/bg-dashboard.png";
   #my-todo {
     @apply container-1280;
   }
+
+  #gourdCrab {
+    background-image: url("assets/game/bg-Tet.png");
+  }
 }
 
 @layer utilities {
