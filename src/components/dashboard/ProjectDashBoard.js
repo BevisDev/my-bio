@@ -1,31 +1,33 @@
+import { Link } from "react-router-dom";
 import {
   MY_MOVIE_PATH,
   MY_CV_PATH,
   MY_TODO_PATH,
+  GROUND_CRAB_PATH,
 } from "../../constant/PathConst";
 
 const ProjectDashBoard = () => {
   return (
-    <section className="dashboard-projects text-center py-3 px-32 rounded-2xl shadow-md mb-2">
+    <section className="dashboard-projects text-center py-3 px-32 rounded-xl mb-2">
       <h3 className="mb-1 font-medium">My Projects</h3>
-      <a
-        className="mb-2 rounded-lg shadow-md h-[3rem] flex-center"
-        href={MY_CV_PATH}
+      <Link
+        to={MY_CV_PATH}
+        className="mb-2 rounded-lg shadow-lg h-[3rem] flex-center border-t-[2px]"
       >
         My CV
-      </a>
-      <a
-        className="mb-2 rounded-lg shadow-md h-[3rem] flex-center"
-        href={MY_TODO_PATH}
+      </Link>
+      <Link
+        to={GROUND_CRAB_PATH}
+        className="mb-2 rounded-lg shadow-md h-[3rem] flex-center border-t-[2px]"
       >
-        My To Do
-      </a>
-      <a
-        className="mb-2 rounded-lg shadow-md h-[3rem] flex-center"
-        href={MY_MOVIE_PATH}
+        Game Gourd Crab
+      </Link>
+      <Link
+        to={MY_MOVIE_PATH}
+        className="mb-2 rounded-lg shadow-md h-[3rem] flex-center border-t-[2px]"
       >
         My Movie
-      </a>
+      </Link>
     </section>
   );
 };

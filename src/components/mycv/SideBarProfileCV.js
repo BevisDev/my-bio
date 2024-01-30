@@ -1,6 +1,6 @@
 import { UL_SOCIAL_CV } from "../../constant/Const";
 import SocialDashBoard from "../dashboard/SocialDashBoard";
-import ME_IMAGE from "../../assets/me.png";
+import ME_IMAGE from "../../assets/me.jpg";
 
 const SideBarProfileCV = () => {
   return (

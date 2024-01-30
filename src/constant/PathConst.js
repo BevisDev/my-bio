@@ -7,9 +7,10 @@ export const MOVIE_LIST_PATH =
 
 // ==================== API INTERNAL PATH
 export const DASH_BOARD_PATH = "/my-bio";
-export const MY_CV_PATH = "/my-cv";
-export const MY_TODO_PATH = "/my-todo";
-export const MY_MOVIE_PATH = "/my-movie";
+export const MY_CV_PATH = DASH_BOARD_PATH + "/my-cv";
+export const GROUND_CRAB_PATH = DASH_BOARD_PATH + "/bau-cua";
+export const MY_TODO_PATH = DASH_BOARD_PATH + "/my-todo";
+export const MY_MOVIE_PATH = DASH_BOARD_PATH + "/my-movie";
 
 // =================== LINK PROFILE SHARE
 export const MAIL_TO_ME = "mailto:dev.binhtt@gmail.com";

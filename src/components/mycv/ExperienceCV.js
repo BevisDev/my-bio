@@ -1,6 +1,6 @@
 import { CV_EXPERIENCE_ID } from "../../constant/Const";
 import CapitaStarProject from "../project/CapitaStarProject";
-import FresherProject from "../project/FresherProject";
+import ClassManagement from "../project/ClassManagement";
 
 const ExperienceCV = () => {
   return (
@@ -18,7 +18,7 @@ const ExperienceCV = () => {
           </div>
           <div className="cv-project">
             <CapitaStarProject />
-            <FresherProject />
+            <ClassManagement />
           </div>
         </div>
       </div>

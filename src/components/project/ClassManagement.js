@@ -1,19 +1,14 @@
-import STAR from "../../assets/icon/start-94.png";
-
-const FresherProject = () => {
+const ClassManagement = () => {
   return (
     <section className="project pl-[74px] pb-[68px] relative">
       <div className="joined-date mb-7">June 2022 - August 2022</div>
-      <div className="text-[24px] font-light mb-[12px] text-white">
-        FPT Software
+      <div className="text-[24px] font-light mb-[12px] text-yellow-200">
+        Class Management
       </div>
       <div className="mb-[5px]">
         <div className="flex-items-center gap-2">
-          <div className="h-[16px] flex-items-center">
-            <img className="image" src={STAR} alt="STAR" />
-          </div>
-          <span className="text-[#40ced9] text-[20px] font-light">
-            Internal Fresher Academy
+          <span className="text-white text-[15px] font-light">
+            Associated with FPT Software
           </span>
         </div>
       </div>
@@ -38,4 +33,4 @@ const FresherProject = () => {
   );
 };
 
-export default FresherProject;
+export default ClassManagement;

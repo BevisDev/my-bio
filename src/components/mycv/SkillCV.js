@@ -11,7 +11,7 @@ const SkillCV = () => {
               MY SKILLS
             </div>
             <div className="text-[48px] leading-[60px] text-white font-light mb-9">
-              My <span className="text-primary">Advantages</span>
+              My <span className="text-primary">Skills</span>
             </div>
           </div>
           <div className="pt-5 text-[65px] grid grid-cols-6 gap-20">

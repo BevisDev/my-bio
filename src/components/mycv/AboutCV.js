@@ -20,16 +20,20 @@ const AboutCV = () => {
               Strong experience in Sofware Development Life Cycle and Agile,
               Scrum.
             </li>
-            <li>English Intermediate level, can communicate fluently</li>
-            <li>Experience in team management, training new joiner</li>
+            <li>Experienced in team management, training new joiner</li>
             <li>
-              Contribute to develop feature purchase with VISA, MASTERCARD,
-              AMEX, conversion DBS Point, Campaign...
+              Contribute to develop feature like payment gateway VISA,
+              MASTERCARD, AMEX, conversion DBS Point, Campaign, Linked Partner,
+              CEP...
             </li>
-            <li>Back-End: experience in Java, SQL Server... etc</li>
             <li>
-              Front-End: experience in JavaScript on ReactJs, React Admin,
-              Material UI, Bootstrap, Tailwind... etc
+              Integrate with third-party like: Memberson, Qwikcilver, DBS, MPGS.
+            </li>
+            <li>
+              Back-End: experience in Java, SQL Server, Redis, Azure Storage.
+            </li>
+            <li>
+              Front-End: experience in ReactJs, JavaScript, Bootstrap, Tailwind.
             </li>
             <li>Moreover, I'm a cat lover guy (｡◕‿‿◕｡)</li>
           </ul>

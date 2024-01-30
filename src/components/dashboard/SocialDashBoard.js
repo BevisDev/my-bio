@@ -13,7 +13,7 @@ const SocialDashBoard = (props) => {
   return (
     <section className="dashboard-social mb-3">
       <ul
-        className={`flex-center mt-1 mb-3 ${
+        className={`dashboard-social-list flex-center mt-1 mb-3 ${
           domType === UL_SOCIAL_CV ? "gap-3" : "gap-14"
         } `}
       >
@@ -25,7 +25,7 @@ const SocialDashBoard = (props) => {
           >
             <i className="devicon-facebook-plain colored text-[35px]"></i>
           </a>
-          <span className="ml-[-10px]">facebook</span>
+          <span className="ml-[-10px]">Facebook</span>
         </li>
         <li className="text-center">
           <a
@@ -35,7 +35,7 @@ const SocialDashBoard = (props) => {
           >
             <i className="devicon-linkedin-plain colored text-[35px]"></i>
           </a>
-          <span className="mt-1">linkedin</span>
+          <span className="mt-1">Linkedin</span>
         </li>
         <li className="text-center">
           <a
@@ -45,7 +45,7 @@ const SocialDashBoard = (props) => {
           >
             <img src={GMAIL_ICON_PATH} alt="gmail-new" />
           </a>
-          <span className="mt-1">gmail</span>
+          <span className="mt-1">Gmail</span>
         </li>
         <li className="text-center">
           <a
@@ -55,7 +55,7 @@ const SocialDashBoard = (props) => {
           >
             <i className="devicon-github-original colored text-[35px]"></i>
           </a>
-          <span className="mt-1">github</span>
+          <span className="mt-1">Github</span>
         </li>
       </ul>
     </section>
