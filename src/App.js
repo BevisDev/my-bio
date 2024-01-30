@@ -12,7 +12,7 @@ import {
   GROUND_CRAB_PATH,
 } from "./constant/PathConst";
 import ToDoPage from "./screens/mytodo/ToDoPage";
-import GroundCrab from "./screens/game/gourdCrab/GourdCrab";
+import GroundCrab from "./screens/gourdCrab/GourdCrab";
 
 function App() {
   return (
