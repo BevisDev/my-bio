@@ -3,6 +3,7 @@ import {
   MY_MOVIE_PATH,
   MY_CV_PATH,
   MY_TODO_PATH,
+  GROUND_CRAB_PATH,
 } from "../../constant/PathConst";
 
 const ProjectDashBoard = () => {
@@ -16,10 +17,10 @@ const ProjectDashBoard = () => {
         My CV
       </Link>
       <Link
-        to={MY_TODO_PATH}
+        to={GROUND_CRAB_PATH}
         className="mb-2 rounded-lg shadow-md h-[3rem] flex-center border-t-[2px]"
       >
-        My To Do
+        Game Gourd Crab
       </Link>
       <Link
         to={MY_MOVIE_PATH}
