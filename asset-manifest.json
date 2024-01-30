@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/my-bio/static/css/main.01e028a7.css",
-    "main.js": "/my-bio/static/js/main.2568fb45.js",
+    "main.css": "/my-bio/static/css/main.da4389f8.css",
+    "main.js": "/my-bio/static/js/main.5346b9f6.js",
     "static/js/787.891ead61.chunk.js": "/my-bio/static/js/787.891ead61.chunk.js",
     "static/media/bg-dashboard.png": "/my-bio/static/media/bg-dashboard.30a3a4623c81e5592587.png",
+    "static/media/shrimp.jpg": "/my-bio/static/media/shrimp.ecedf2d90259679efef0.jpg",
+    "static/media/chicken.jpg": "/my-bio/static/media/chicken.a9878ac934fca4e6eaf8.jpg",
     "static/media/PSM1.jpg": "/my-bio/static/media/PSM1.4447999ef5a2b59966b8.jpg",
     "static/media/NhatNghe.jpg": "/my-bio/static/media/NhatNghe.6e6bab4b8f8e9f42c947.jpg",
     "static/media/bongoCatCodes.gif": "/my-bio/static/media/bongoCatCodes.6aa21363b3274ff334d2.gif",
     "static/media/B1Hutech.jpg": "/my-bio/static/media/B1Hutech.4a295f697f148335ba28.jpg",
+    "static/media/bg-Tet.png": "/my-bio/static/media/bg-Tet.21443d2c1a41591154b7.png",
     "static/media/me.jpg": "/my-bio/static/media/me.21bd8d453c0e36fa2c32.jpg",
     "static/media/ScrumDEK.jpg": "/my-bio/static/media/ScrumDEK.dc11ee897946e3dadafe.jpg",
+    "static/media/fish.jpg": "/my-bio/static/media/fish.22ca5da856e92a76e6f9.jpg",
+    "static/media/deer.jpg": "/my-bio/static/media/deer.97e5214ea9b7750b9b0e.jpg",
+    "static/media/crab.jpg": "/my-bio/static/media/crab.c4021f2adfd0ea57096b.jpg",
+    "static/media/gourd.jpg": "/my-bio/static/media/gourd.1cdf0b4683514cfa2b4f.jpg",
     "index.html": "/my-bio/index.html",
-    "main.01e028a7.css.map": "/my-bio/static/css/main.01e028a7.css.map",
-    "main.2568fb45.js.map": "/my-bio/static/js/main.2568fb45.js.map",
+    "main.da4389f8.css.map": "/my-bio/static/css/main.da4389f8.css.map",
+    "main.5346b9f6.js.map": "/my-bio/static/js/main.5346b9f6.js.map",
     "787.891ead61.chunk.js.map": "/my-bio/static/js/787.891ead61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01e028a7.css",
-    "static/js/main.2568fb45.js"
+    "static/css/main.da4389f8.css",
+    "static/js/main.5346b9f6.js"
   ]
 }
